@@ -1,7 +1,7 @@
 ---
 layout: post
 title: sample post
-author: Taku
+author: taku
 date: 2021-03-10 23:00
 tags: [日記]
 ---

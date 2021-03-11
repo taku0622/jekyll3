@@ -33,7 +33,7 @@ twitter:
   card: summary
 logo: logo.png
 social:
-  name: Taku
+  name: taku
   links:
     # - https://twitter.com/vszhub
     - https://github.com/taku0622
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Taku
+  name: taku
   url: https://github.com/taku0622
   # email: vszhub@gmail.com

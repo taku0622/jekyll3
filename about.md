@@ -39,7 +39,7 @@ toc:  true
 
 ## contact🤝
 
--[Instagram](https://www.instagram.com/maple_taku){:target="_blank"}
+- [Instagram](https://www.instagram.com/maple_taku){:target="_blank"}
 
 - [GitHub](https://github.com/taku0622){:target="_blank"}
 

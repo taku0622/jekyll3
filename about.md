@@ -15,6 +15,8 @@ toc:  true
 
 **苦手なことは環境構築です。**
 
+===
+
 ##  skills💻
 
 ### Java　<i class="fab fa-java" style="font-size:1.2em;"></i>

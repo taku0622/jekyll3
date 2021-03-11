@@ -43,7 +43,7 @@ toc:  true
 
 
 
-### <i class="fab fa-instagram" style="font-size:1.2em;" href="#"></i>
+### <a class="icon fa-github" href="#">GitHub</a>
 
 **Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
 

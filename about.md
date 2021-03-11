@@ -20,9 +20,9 @@ toc:  true
 
 ### <i class="fab fa-java" style="font-size:1.2em;"></i> Java
 ### <i class="fas fa-copyright" style="font-size:1.2em;"></i> C
-### <i class="fas fa-gem" style="font-size:1.2em;"></i> Ruby
-### <i class="fab fa-java" style="font-size:1.2em;"></i> C
-### <i class="fab fa-java" style="font-size:1.2em;"></i> C
+### <i class="fas fa-gem" style="font-size:1.0em;"></i> Ruby
+### <i class="fab fa-php" style="font-size:1.2em;"></i> PHP
+
 <i class="fas fa-gem"></i>
 ## contact🤝
 

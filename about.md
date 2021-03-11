@@ -1,13 +1,12 @@
 ---
 layout: page
 title: About
-author: taku
 toc:  true
 ---
 
 ## Hello👋
 
-1998年生まれの大学4年生。新潟生まれ現在は東京にいます。
+1998年生まれの大学4年生。新潟で育ち現在は東京にいます。
 
 趣味を動画を見ること＆寝ることです。
 
@@ -15,9 +14,11 @@ toc:  true
 
 <img src="https://grass-graph.moshimo.works/images/taku0622.png">
 
-**苦手なことは環境構築など難しいことです。**
+**苦手なことは環境構築です。**
 
 ## スキル💻
+
+<i class="fa fa-cubes" style="font-size:1em;"></i> 概要
 
 ## コンタクト🤝
 

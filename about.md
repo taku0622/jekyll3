@@ -16,11 +16,12 @@ toc:  true
 
 **苦手なことは環境構築です。**
 
-## スキル💻
+##  skills💻
 
 ### <i class="fa fa-cubes" style="font-size:1em;"></i> 概要
+### <i class="fa fa-java" style="font-size:2em;"></i> 概要
 
-## コンタクト🤝
+## contact🤝
 
 **Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
 

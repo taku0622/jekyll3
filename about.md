@@ -18,10 +18,12 @@ toc:  true
 
 ##  skills💻
 
-### <i class="fa fa-cubes" style="font-size:1em;"></i> 概要
-### <i class="fab fa-java" style="font-size:1.5em;"></i> Java
-### <i class="fab fa-java" style="font-size:1em;"></i> Java
-
+### <i class="fab fa-java" style="font-size:1.2em;"></i> Java
+### <i class="fas fa-copyright" style="font-size:1.2em;"></i> C
+### <i class="fas fa-gem" style="font-size:1.2em;"></i> Ruby
+### <i class="fab fa-java" style="font-size:1.2em;"></i> C
+### <i class="fab fa-java" style="font-size:1.2em;"></i> C
+<i class="fas fa-gem"></i>
 ## contact🤝
 
 **Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).

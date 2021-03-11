@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+author: taku
+toc:  true
 ---
 
 # こんにちは

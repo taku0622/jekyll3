@@ -19,7 +19,7 @@ toc:  true
 ##  skills💻
 
 ### <i class="fa fa-cubes" style="font-size:1em;"></i> 概要
-### <i class="fa fa-java" style="font-size:2em;"></i> 概要
+### <i class="fa fa-java" style="font-size:2em;"></i> Java
 
 ## contact🤝
 

@@ -18,8 +18,14 @@ toc:  true
 ##  skills💻
 
 ### Java　<i class="fab fa-java" style="font-size:1.2em;"></i>
+大学2年間の講義を受けていましたがほぼ書けないです。Springとか触ってみたいです。
+
 ### C　<i class="fas fa-copyright" style="font-size:1.2em;"></i>
+大学1年間の講義を受けていましたがかなり書けないです。ポインタやメモリの部分で挫折しました。
+
 ### Ruby　<i class="fas fa-gem" style="font-size:1.0em;"></i>
+
+
 ### PHP　<i class="fab fa-php" style="font-size:1.2em;"></i>
 
 ## contact🤝

@@ -18,7 +18,7 @@ toc:  true
 
 ## スキル💻
 
-<i class="fa fa-cubes" style="font-size:1em;"></i> 概要
+### <i class="fa fa-cubes" style="font-size:1em;"></i> 概要
 
 ## コンタクト🤝
 

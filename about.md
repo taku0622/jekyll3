@@ -39,9 +39,9 @@ toc:  true
 
 ## contact🤝
 
-### <i class="fab fa-instagram" style="font-size:1.2em;">[Instagram](https://www.instagram.com/maple_taku){:target="_blank"} </i>
+### [Instagram](https://www.instagram.com/maple_taku){:target="_blank"}
 
-### [GitHub](https://github.com/taku0622){:target="_blank"}　<i class="fab fa-github" style="font-size:1.2em;"></i>
+### [GitHub](https://github.com/taku0622){:target="_blank"}
 
 **Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
 

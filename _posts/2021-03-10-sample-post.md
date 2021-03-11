@@ -9,4 +9,5 @@ tags: [日記]
 こんにちは、サンプル投稿です。
 
 ジムに行きました～
-http://sports-arai.jp/CIMG4274.JPG
+
+![ジム](http://sports-arai.jp/CIMG4274.JPG)

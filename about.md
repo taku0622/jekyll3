@@ -39,7 +39,7 @@ toc:  true
 
 ## contact🤝
 
-### <i class="fab fa-instagram" style="font-size:1.2em;" href="#">Instagram</i>
+### <i class="fab fa-instagram" style="font-size:1.2em;" href="#"></i>
 
 
 

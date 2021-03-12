@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 今日の日記
+title: 日記-00001
 author: taku
 date: 2021-03-11 23:00
 tags: [日記]

@@ -6,6 +6,8 @@ date: 2021-04-04 18:30
 tags: [Java]
 ---
 
+studying Java☕
+
 ## HelloWorld.javaの実行の流れ
 
 - 1.ソースプログラム

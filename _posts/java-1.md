@@ -8,8 +8,6 @@ tags: [Java]
 
 studying Java☕
 
-## HelloWorld.javaの実行の流れ
-
 - 1.ソースプログラム
 テキストエディタ等でプログラムを書く
 HelloWorld.java

@@ -12,7 +12,7 @@ tags: [Java]
 テキストエディタ等でプログラムを書く
 HelloWorld.java
 
-```java
+```
 public class HelloWorld {
     /**
      * @param args the command line arguments

@@ -17,9 +17,7 @@ HelloWorld.java
 - 2.コンパイル
 コンパイラ(javac)を起動する
 
-```
-javac HelloWorld.java
-```
+
 
 - 3.クラスファイル
 Javaバイトコードに変換された **HelloWorld.class** が作成される
@@ -27,15 +25,10 @@ Javaバイトコードに変換された **HelloWorld.class** が作成される
 - 4.実行
 インタプリンタ(java)でクラスファイルを実行する
 
-```
-java HelloWorld.java
-```
 
 - 5.実行結果
 
-```
-Hello, World!
-```
+
 
 
 

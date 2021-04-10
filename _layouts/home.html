@@ -39,7 +39,7 @@ layout: default
   {% endif %}
   {% if paginator.previous_page %}
   {% url = paginator.previous_page_path | prepend: relative_url %}
-  {% if url == "https://taku0622.github.io/jekyll3/"}
+  {% url = "https://taku0622.github.io/jekyll3/" if url == "https://taku0622.github.io"}
   <a class="pagination-item newer" href="{url}}">Newer</a>
   {% else %}
   <span class="pagination-item newer">Newer</span>

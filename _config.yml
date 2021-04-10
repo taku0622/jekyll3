@@ -4,7 +4,6 @@ description: 文章力が皆無なブログ
 url: https://taku0622.github.io/jekyll3
 avatar: https://i.imgur.com/vmE2npN.png
 paginate: 5
-paginator_path: "jekyll3/page:num"
 permalink: pretty
 cover_image: https://i.imgur.com/QZjnaty.jpg
 

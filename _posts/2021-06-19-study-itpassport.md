@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java
+title: ITパスポートについて
 author: taku
 date: 2021-06-19 18:30
 last_modified_at: 2021-06-13 16:00

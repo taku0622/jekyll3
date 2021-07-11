@@ -46,6 +46,10 @@ toc:  true
 
 ***
 
-**Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
+## finally🐉
 
-For more information about Not Pure Poole, please browse the [README](https://github.com/vszhub/not-pure-poole) file.
+**WE GOTTA POWER!!🔥🔥🔥**
+
+![WE GOTTA POWER](https://i.pinimg.com/originals/89/7b/7e/897b7ef20f19ac795065763477dc7127.gif) 
+
+

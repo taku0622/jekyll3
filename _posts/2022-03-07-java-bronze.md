@@ -13,6 +13,7 @@ studying Java Bronze☕
 
 以前から少しずつ勉強していて、この参考書を使用しています。
 
+**徹底攻略Java SE Bronze問題集［1Z0-818］対応**
 ![JavaBronze](https://book.impress.co.jp/books/1119101075)
 
 

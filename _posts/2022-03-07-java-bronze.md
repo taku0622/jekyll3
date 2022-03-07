@@ -4,7 +4,6 @@ title: JavaBronze
 author: taku
 date: 2022-03-07 23:23
 tags: [Java]
-toc:  true
 ---
 
 Studying Java Bronze☕

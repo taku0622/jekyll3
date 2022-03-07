@@ -3,7 +3,7 @@ layout: post
 title: JavaBronze
 author: taku
 date: 2022-03-07 23:23
-tags: [Java]
+tags: [Java, 資格]
 ---
 
 Studying Java Bronze☕

@@ -7,7 +7,7 @@ tags: [Java]
 toc:  true
 ---
 
-studying Java Bronze☕
+Studying Java Bronze☕
 
 今日から、試験日3/12(土)まで、毎日更新していこうと思います。
 

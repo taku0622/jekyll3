@@ -14,7 +14,7 @@ Studying Java Bronze☕
 
 
 **徹底攻略Java SE Bronze問題集［1Z0-818］対応**
-<img src="https://img.ips.co.jp/ij/19/1119101075/1119101075-520x.jpg.jpg" width="200px">
+<img src="https://img.ips.co.jp/ij/19/1119101075/1119101075-520x.jpg" width="200px">
 ![JavaBronze](https://img.ips.co.jp/ij/19/1119101075/1119101075-520x.jpg)
 
 第8章 総仕上げ問題を実施したので、間違えた問題の紹介をしていきます。

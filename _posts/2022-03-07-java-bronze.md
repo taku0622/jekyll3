@@ -4,6 +4,7 @@ title: Java Bronze
 author: taku
 date: 2022-03-07 23:23
 tags: [Java, Certification]
+toc:  true
 ---
 
 Studying Java Bronze☕

@@ -45,3 +45,55 @@ Studying Java Bronze☕
 |  54  |
 |  57  |
 |  58  |
+
+### No.14
+
+コンストラクタチェーン
+
+以下のプログラムは次の順番で実行される。
+
+```java
+package bronze;
+
+public class SubClass extends SuperClass {
+	private int a;
+	private int b;
+
+	public SubClass(int a) {
+    super(); // コンパイル時、暗黙的に生成される。
+		this.a = a;
+	}
+
+	public SubClass(int a, int b) {
+		this(a);
+		this.b = b;
+	}
+
+	public static void main(String[] args) {
+		SubClass subClass = new SubClass(2, 3);
+		System.out.println(subClass.num + ":" + subClass.a + ":" + subClass.b);
+	}
+
+}
+class SuperClass {
+	protected int num;
+	public SuperClass() {
+		this.num = 1;
+	}
+	public SuperClass(int num) {
+		this.num = num;
+	}
+}
+```
+
+1. mainメソッドのsubClassインスタンスが生成される。
+2. コンストラクタSubClass(a,b)が呼ばれて、その中のthis(a)が呼ばれる。
+3. コンストラクタSubClass(a)が呼ばれて、コンパイル時、暗黙的に生成されたsuper()が実行される。
+4. super();でSuperClassのコンストラクタSuperClass()が呼ばれて、フィールドnumに1が代入。
+5. this.a = aが実行、this.b = bが実行。
+
+
+実行結果
+```
+1:2:3
+```

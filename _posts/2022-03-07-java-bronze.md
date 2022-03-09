@@ -119,7 +119,7 @@ class SuperClass {
 
 【デフォルト値】
 
-|header1|>      |>      |>      |>      |
+|header1|>      |>      |>      | 参照型 |
 |header1|header2|header3|header4|header5|
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 |hoge   |fuga   |piyo   |fuga   |piyo   |

@@ -119,7 +119,11 @@ class SuperClass {
 
 【デフォルト値】
 
-|header1|>      |>      |>      | 参照型 |
-|header1|header2|header3|header4|header5|
-|:-----:|:-----:|:-----:|:-----:|:-----:|
-|hoge   |fuga   |piyo   |fuga   |piyo   |
+**プリミティブ型**
+- 整数型：0
+- 浮動小数点型：0.0
+- 文字列型：\u0000
+- 真偽値型：false
+
+**参照型**
+null

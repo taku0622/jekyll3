@@ -128,3 +128,33 @@ class SuperClass {
 
 **参照型**
 null
+
+
+### No.21
+
+答え、写す。
+
+
+アクセス修飾子を使ったアクセス制限に関する問題です。privateで修飾されたメソッドは、同一クラス外からはアクセスできないこと
+がポイントです。privateは「同一クラスからアクセス可能」であることを表すアクセス修飾子です。たとえ、サブクラスであってもスーパークラスのprivateなメソッドにはアクセスできません。
+
+同一クラスからであれば、明示的に自インスタンスを参照するthis変数を使ってprivateメソッドにアクセスできます。次のコートは、自インスタンスを参照するthis変数を使ってprivateメソッドにアクセスする例です。
+
+```java
+package bronze;
+
+public class Sample {
+	void fuga() {
+		this.hoge();
+	}
+	private void hoge() {
+		System.out.println("hoge");
+	}
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Sample sample = new Sample();
+		sample.fuga();
+	}
+
+}
+```

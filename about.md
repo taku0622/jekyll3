@@ -10,12 +10,7 @@ toc:  true
 
 簡単なプログラムや日記を書いて草を生やしています。
 
-![githubGrass](https://camo.githubusercontent.com/90d2298f7f9403df16c969f403dadf6f21ca61582bbe438b61a870a44388a9d7/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d74616b7530363232266c61796f75743d636f6d70616374267468656d653d73796e746877617665) 
-
-[![](https://raw.githubusercontent.com/taku0622/taku0622/main/profile-summary-card-output/nord_dark/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/taku0622/taku0622/main/profile-summary-card-output/nord_dark/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/taku0622/taku0622/main/profile-summary-card-output/nord_dark/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/jinwatanabe/jinwatanabe/main/profile-summary-card-output/nord_dark/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/jinwatanabe/jinwatanabe/main/profile-summary-card-output/nord_dark/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=taku0622&theme=nord_dark)
 
 **苦手なことは環境構築です。**
 

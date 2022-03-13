@@ -10,7 +10,7 @@ toc:  true
 
 簡単なプログラムや日記を書いて草を生やしています。
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=taku0622&theme=nord_dark)
+![github_contributions](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=taku0622&theme=nord_dark)
 
 **苦手なことは環境構築です。**
 

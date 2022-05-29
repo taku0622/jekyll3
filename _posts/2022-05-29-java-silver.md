@@ -2,8 +2,8 @@
 layout: post
 title: Java Silver
 author: taku
-date: 2022-05-28 17:00
-last_modified_at: 2022-05-28 16:33
+date: 2022-05-29 17:00
+last_modified_at: 2022-05-29 18:33
 tags: [Java, Certification]
 toc: true
 ---

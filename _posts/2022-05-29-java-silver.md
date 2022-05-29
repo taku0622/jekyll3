@@ -47,3 +47,18 @@ import java.util.*;
 public static void main(Strgin... args){
 }
 ```
+
+### No.8
+
+以下のコマンドの引数はいくつか。
+
+```cmd
+java Sample.java a \" a\" "a "b c
+```
+
+A. 5個
+①a
+②"
+③a"
+④ab
+⑤c

@@ -16,3 +16,15 @@ Studying Java Silver☕
 <img src="https://images-na.ssl-images-amazon.com/images/I/516G9d-lTgL._SX351_BO1,204,203,200_.jpg" width="200px">
 
 参考書の問題と解説を読んで、必要だと思った箇所をメモしていきます。
+
+## 第1章 簡単なJavaプログラムの作成
+
+### No.3
+
+例:java.utilパッケージに属する全クラスのインポート宣言
+
+```java
+import java.util.*;
+```
+
+上記の宣言でインポートされるのはjava.utilパッケージに属するクラスだけで、サブパッケージであるjava.util.regexやjava.util.loggingパッケージに属するクラスをインポートできるということではありません。

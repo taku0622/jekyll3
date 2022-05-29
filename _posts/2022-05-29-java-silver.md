@@ -51,7 +51,7 @@ public static void main(Strgin... args){
 
 以下のコマンドの引数はいくつか。
 
-```cmd
+```
 java Sample.java a \" a\" "a "b c
 ```
 

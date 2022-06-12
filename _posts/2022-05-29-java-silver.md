@@ -92,3 +92,23 @@ nullとはリテラルの一種で参照型変数が「何も参照しない」�
 ### No.5
 
 識別子(変数・メソッド・クラスの名前)に使える記号はアンダースコア「_」とドル記号「$」であることと、数字は2文字目以降に使える。特に変数名は数字から初めてはいけない。
+
+
+### 12
+
+StringクラスのindexOfメソッドの引数に「c」という文字を渡すと2が戻されます。
+また、引数で指定した文字がなければ-1が戻されます。
+
+文字列を渡すこともできます。文字列を引数に渡した場合、このメソッドは、その文字列が始まる最初の文字位置を戻します。もし、文字列が存在しなければ、-1が戻されます。
+
+'''java
+public class Sample {
+	public static void main(St
+		String string = "abcde";
+		System.out.println(string.indexOf('c'));	// 2
+		System.out.println(string.indexOf('f'));	// -1
+		System.out.println(string.indexOf("cd"));	// 2
+		System.out.println(string.indexOf("cdf"));	// -1
+	}
+}
+'''

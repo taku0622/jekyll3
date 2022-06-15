@@ -130,3 +130,20 @@ public class Sample {
 No.20
 
 変更可能な文字列を扱うクラスとして、**java.lang.StringBuilderクラス**が用意されています。StringBuilderは、内部にバッファを持った文字列を扱うためのクラスです。Stringが文字列と同じ長さのchar配列を扱うのに対し、StringBuilderは保持している文字列+余分のバッファを持ち、デフォルトで16文字分のバッファを持っています。
+
+
+## 第3章 演算子と判定構造
+
+### No.4
+
+前置インクリメントと後置インクリメントは加算と減算のタイミングに注意する。
+
+```java
+public class Sample {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = a++ + a + a-- - a-- + ++a; 	// b = 10 + 11 + 11 - 11 + 11
+		System.out.println(b);				// 32
+	}
+}
+```

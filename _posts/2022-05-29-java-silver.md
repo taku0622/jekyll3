@@ -122,7 +122,7 @@ public class Sample {
 	public static void main(String[] args) 
 		String string = null;
 		string += "null";
-		System.out.println(string);
+		System.out.println(string); // nulllnull
 	}
 }
 ```

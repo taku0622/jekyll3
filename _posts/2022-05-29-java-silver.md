@@ -113,3 +113,17 @@ public class Sample {
 }
 ```
 
+## No.19
+
+nullが代入されたString型変数に+=演算子を使って文字列「null」を連結することによって、変数stringは「nullnull」という文字列を保持していることになります。
+
+```java
+public class Sample {
+	public static void main(String[] args) 
+		String string = null;
+		string += "null";
+		System.out.println(string);
+	}
+}
+```
+

@@ -212,3 +212,22 @@ public class Sample {
 ```
 0,1,2,
 ```
+
+### NO.11
+
+```java
+public class Sample {
+	public static void main(String[] args) {
+		String[][] array = {{"A","B","C"}};
+		for(Object object : array) {
+			System.out.println(object);
+		}
+	}
+}
+```
+
+出力結果
+
+```
+[Ljava.lang.String;@1e81f4dc
+```

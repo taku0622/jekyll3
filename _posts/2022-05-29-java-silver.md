@@ -193,3 +193,22 @@ for文の初期化文では、同じ型の変数を複数宣言できます。�
 ## No.7
 
 for文で複数の条件文を記述する場合は、論理演算子を使います。初期化文や更新文のように、カンマ「,」で区切って複数の条件を記述するとコンパイルエラーになります。
+
+```java
+public class Sample {
+	public static void main(String[] args) {
+		for (int i = 0; i < 3; i++, period()) {
+			System.out.print(i);
+		}
+	}
+	private static void period() {
+		System.out.print(",");
+	}
+}
+```
+
+出力結果
+
+```
+0,1,2,
+```

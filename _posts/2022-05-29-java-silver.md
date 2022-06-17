@@ -231,3 +231,27 @@ public class Sample {
 ```
 [Ljava.lang.String;@1e81f4dc
 ```
+
+### No.13
+
+条件式でインクリメントされると変数の値は更新されます。
+
+前置インクリメントの場合、更新されてから判定文。
+
+後置インクリメントの場合、判定してから更新。
+
+```java
+public class Sample {
+	public static void main(String[] args) {
+		int num = 10;
+		do {
+			num++;
+		} while (++num < 10);
+		System.out.println(num);
+	}
+}
+```
+
+```出力結果
+12
+```

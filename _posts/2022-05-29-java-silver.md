@@ -325,3 +325,25 @@ false
 arrayA= {1,2,3}
 arrayB= {1,2,3}
 ```
+
+## 第6章 インスタンスをメソッド
+
+### No.4
+
+インスタンスの参照がなくなった時点で、ガベージコレクションの対象となります。ガベージコレクションのタイミングはJVMが決めます。gcメソッドはガベージコレクションの実行を促すだけで、保証はされません。
+
+
+ガベージコレクタは、インスタンスの破棄を繰り返すことで細切れになったメモリをまとめ、大きな空間を確保する「コンパクション」という機能があります。そのため、ガベージコレクションはCPUに対して負荷の高い処理なのです。
+
+```java
+public class Sample {
+	public static void main(String[] args) {
+		Object aObject = new Object();
+		Object bObject = new Object();
+		Object cObject = aObject;
+		aObject = null;
+		bObject = null;
+		// more code この時点でbObjectがガベージコレクションの対象になる。
+	}
+}
+```

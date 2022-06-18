@@ -267,11 +267,11 @@ public class Sample {
 ```java
 public class Sample {
 	public static void main(String[] args) {
-		int[] a;				// 1次元配列
-		int b[];				// 1次元配列
-		int[][] c;			// 3次元配列
-		int d[][];			// 2次元配列
-		int[] e[];			// 2次元配列
+		int[] a;		// 1次元配列
+		int b[];		// 1次元配列
+		int[][] c;		// 3次元配列
+		int d[][];		// 2次元配列
+		int[] e[];		// 2次元配列
 		int[][] f[];		// 3次元配列
 	}
 }
@@ -292,3 +292,4 @@ public class Sample {
 |真偽型|false|
 |文字型|\u0000|
 |オブジェクト型|null|
+

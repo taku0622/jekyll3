@@ -300,3 +300,28 @@ newと初期化子を使って、配列のインスタンス生成と初期化�
 
 初期化しを使って、配列のインスタンス生成と初期化を同時に行う場合、変数の宣言と参照の代入も同時に行います。セミコロン「;」を使って変数宣言と配列のインスタンス生成のタイミングを分けることはできません。
 
+### No.10
+
+cloneメソッドは、配列の内容をそのままコピーします。
+
+```java
+public class Sample {
+	public static void main(String[] args) {
+		int[] arrayA = {1,2,3};
+		int[] arrayB = arrayA.clone();
+		System.out.println(arrayA == arrayB);
+		System.out.println(arrayA.equals(arrayB));
+		System.out.println("arrayA= {" + arrayA[0] +","+ arrayA[1] +","+ arrayA[2] +"}");
+		System.out.println("arrayB= {" + arrayB[0] +","+ arrayB[1] +","+ arrayB[2] +"}");
+	}
+}
+```
+
+出力結果
+
+```
+false
+false
+arrayA= {1,2,3}
+arrayB= {1,2,3}
+```

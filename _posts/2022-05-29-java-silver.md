@@ -347,3 +347,16 @@ public class Sample {
 	}
 }
 ```
+
+### No.15
+
+実行されないことが明白なコードがあった場合、コンパイラは「到達不可能なコードがある」とコンパイルエラーを発生させます。
+
+```java
+private static void method(int num) {
+		if(num < 0) return;
+		System.out.println("A");
+		return;
+		System.out.println("B"); // 到達不能コード。この箇所でコンパイルエラー。
+	}
+```

@@ -435,6 +435,16 @@ A
 ***static初期化子の例***
 
 ```java
-
-
+public class Item {
+	static int num;
+	static {
+		num = 10;
+	}
+	public Item() {
+		num = 100;
+	}
+}
 ```
+
+このようにすると、インスタンスを生成しなかった場合には10が表示されます。
+

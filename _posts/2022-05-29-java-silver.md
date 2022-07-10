@@ -425,3 +425,9 @@ public class Sample {
 	}
 }
 ```
+
+**実行結果**
+```
+B
+A
+```

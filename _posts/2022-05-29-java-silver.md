@@ -360,3 +360,21 @@ private static void method(int num) {
 		System.out.println("B"); // 到達不能コード。この箇所でコンパイルエラー。
 	}
 ```
+
+### No.17
+
+double型はint型よりも範囲が大きく、暗黙の型変換によって互換性が保たれているデータ型です。そのため、2つのint型を渡した呼び出しはdoubleとintを受け取るcalcメソッドにも、intとdoubleを受け取るcalcメソッドにも両方適応できてしまいます。このような場合、JVMはどちらのメソッドを呼び出すべきかを判断できません。そのため、「あいまいなメソッド呼び出し」としてコンパイルエラーが発生します。
+
+```java
+public class Sample {
+	public static void main(String[] args) {
+		Sample s = new Sample();
+		System.out.println(s.calc(0, 0)); // あいまいな呼び出しなので、この箇所でコンパイルエラーが発生する。
+	private double calc(int a,double b) { // 2つのcalcメソッドは引数の型の順番が異なるので、オーバーロードは成り立っている。
+		return a + b;
+	}
+	private double calc(double a,int b) { // 2つのcalcメソッドは引数の型の順番が異なるので、オーバーロードは成り立っている。
+		return a + b;
+	}
+}
+```

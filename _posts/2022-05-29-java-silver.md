@@ -394,3 +394,34 @@ public class Sample {
 |デフォルト|現在のクラスと同じパッケージのクラスからアクセスできる|
 |private|現在のクラスからだけアクセスできる|
 
+### No.21
+
+コンストラクタと初期化子が設定されている場合、初期化子はコンストラクタよりも先に実行されます。
+
+初期化子「{}」は、クラスブロック直下にフィールドやメソッド、コンストラクタと並べて記述する。
+
+初期化子を使えば、オーバーロードされたすべてのコンストラクタで共通の前処理を宣言できます。
+
+
+***Itemクラス***
+
+```java
+public class Item {
+	Item(){
+		System.out.println("A");
+	}
+	{
+		System.out.println("B");
+	}
+}
+```
+
+***Sampleクラス***
+
+```java
+public class Sample {
+	public static void main(String[] args) {
+		Item item = new Item();
+	}
+}
+```

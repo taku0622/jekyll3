@@ -503,3 +503,52 @@ public interface Interface {
 ```
 
 default修飾子で修飾されている以外は、クラスに定義するメソッド定義と同じです。なお、デフォルトメソッドもインターフェースに定義するメソッドと同様に、自動的にpublicで修飾されます。
+
+### No.5
+
+インターフェースに定義するデフォルトメソッドですが、***java.lang.Objectクラス***に定義されているメソッドの扱いです。java.lang.Objectクラスに定義されているメソッドをインタフェースでデフォルトメソッドとしてオーバーライドするとコンパイルエラーとなります。
+
+```java
+public interface Interface {
+	@Override
+	default String toString() { // コンパイルエラー
+		return "";
+	}
+}
+```
+
+***インターフェースと実装クラスの関係***
+
+**インターフェース**
+```java
+public interface Interface {
+	default String hello() {
+		return "hello";
+	}
+}
+```
+
+**実装クラス**
+```java
+public class Item implements Interface {
+	@Override
+	public String hello() {
+		return "HELLO";
+	}
+}
+```
+
+**Mainクラス**
+```java
+public class Sample {
+	public static void main(String[] args) {
+		Interface inter = new Item();
+		System.out.println(inter.hello());
+	}
+}
+```
+
+**実行結果**
+```
+HELLO
+```

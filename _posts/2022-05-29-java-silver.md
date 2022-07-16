@@ -451,3 +451,15 @@ public class Item {
 ### No.25
 
 thisを使って、コンストラクタ内から、オーバーロードされたコンストラクタを呼び出す場合、コンストラクタ呼び出しのコードよりも前には処理を記述できません。記述するとコンパイルエラーになります。
+
+```java
+public class Item {
+	public Item() {
+		System.out.println("hello");
+		this(0, 0);	// コンパイルエラーになる
+	}
+	public Item(int a, int b) {
+		System.out.println(a + b);
+	}
+}
+```

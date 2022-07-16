@@ -582,3 +582,22 @@ public class Item implements Interface {
 }
 ```
 
+### No.11
+
+メソッドのオーバーライドには、次の3つのルールがある。
+
+- シグニチャが同じであること
+- 戻り値型は同じ型か、サブクラス型であること
+- アクセス修飾子は同じか、より緩いものを指定すること
+
+そのため、以下のクラスのサブクラスを定義するとき、helloメソッドのアクセス修飾子はprotected or publicになります。
+
+```java
+public class Item  {
+	protected void hello() {
+		System.out.println("hello");
+	}
+}
+```
+
+

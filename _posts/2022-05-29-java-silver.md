@@ -555,4 +555,27 @@ public class Sample {
 HELLO
 ```
 
+### No.6
+
+デフォルトメソッドをオーバーライドしたメソッドから、元のデフォルトメソッドを呼び出すには、次の構文を使います。
+
+**インターフェース**
+```java
+public interface Interface {
+	default void hello() {
+		System.out.println("hello");;
+	}
+}
+```
+
+**実装クラス**
+```java
+public class Item implements Interface {
+	@Override
+	public void hello() {
+		Interface.super.hello();
+		System.out.println("HELLO");
+	}
+}
+```
 

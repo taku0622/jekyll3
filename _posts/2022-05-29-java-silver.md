@@ -648,6 +648,22 @@ public class Sample {
 - インスタンスが扱っている「型」に、呼び出しているメソッドが定義されているかどうか
 
 ```java
+public class AClass {
+	void hello() {
+		System.out.println("hello");
+	}
+}
+```
+
+```java
+public class BClass extends AClass{
+	void sample() {
+		System.out.println("sample");
+	}
+}
+```
+
+```java
 public class Sample implements Interface {
 	public static void main(String[] args) {
 		AClass b = new BClass();

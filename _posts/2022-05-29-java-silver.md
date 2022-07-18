@@ -627,7 +627,6 @@ public class BClass extends AClass{
 ```
 **Mainクラス**
 ```java
-package silver;
 public class Sample {
 	public static void main(String[] args) {
 		AClass a = new AClass();
@@ -648,5 +647,12 @@ public class Sample {
 
 - インスタンスが扱っている「型」に、呼び出しているメソッドが定義されているかどうか
 
-
+```java
+public class Sample implements Interface {
+	public static void main(String[] args) {
+		AClass b = new BClass();
+		b.sample();  // コンパイルエラー　Aクラスには存在しないメソッド
+	}
+}
+```
 

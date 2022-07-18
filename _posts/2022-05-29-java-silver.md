@@ -672,3 +672,19 @@ public class Sample implements Interface {
 }
 ```
 
+### No.16
+
+ダウンキャスト。
+親を子の型に入れられない。
+ポリモーフィズムなどは子を親の型に入れている。
+
+```java
+public class BClass extends AClass{
+	void sample() {
+		Number n = 1.0; // Number型はdouble型の親クラス
+		double d = n; //コンパイルエラー　
+		System.out.println("sample");
+	}
+}
+```
+

@@ -600,6 +600,45 @@ public class Item  {
 }
 ```
 
+### No.12
+
+ポリモーフィズムを使った場合、スーパークラスとサブクラスに同じ名前のフィールドがあったとき、どちらのフィールドを利用するかは宣言した変数の型によって決まります。
+
+どの変数を使うかは、コンパイル時に決まります。コンパイル時には、どの型のインスタンスが動作するかをチェックできないため、変数の型だけが判断基準となります。そのため、「どちらのフィールドを使うか？」という問いは、変数の型によって判断することができます。一方、どのメソッドを使うかは実行時に決まります。そのため、ポリモーフィズムを使ったときには、「どのインスタンスが動作しているか？」「どのメソッドがオーバーライドされているか？」確認しなければいけません。
+
+- フィールドを参照した場合には、変数の型で宣言された方を使う。
+- メソッドを呼び出した場合、メソッド内の指示に従う。
+
+**親クラス**
+```java
+public class AClass {
+	String val = "A";
+	void print() {
+		System.out.println(val);
+	}
+}
+```
+
+**子クラス**
+```java
+public class BClass extends AClass{
+	String val = "B";
+}
+```
+**Mainクラス**
+```java
+package silver;
+public class Sample {
+	public static void main(String[] args) {
+		AClass a = new AClass();
+		AClass b = new BClass();
+		System.out.println(a.val);
+		System.out.println(b.val); // AClass型なので、Aが出力
+		a.print();
+		b.print(); // 変数同様Aが出力
+	}
+}
+```
 
 
 

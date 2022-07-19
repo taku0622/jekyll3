@@ -688,3 +688,38 @@ public class BClass extends AClass{
 }
 ```
 
+### No.17
+
+キャスト式は、プログラマーがコンパイラに対して、互換性を保証することを意味します。
+
+AにはBとの互換性を示すものは何もないため、自動で型変換をすることはできません。そこでキャスト式を記述して、プログラマーがコンパイラに対して、互換性の保証を行っています。そのため、コンパイルエラーが発生することはありません。
+
+しかし、変数aの参照先にあるインスタンスは、Aのインスタンスです。AのインスタンスにはBの差分が含まれていないため、Bでオーバーライドしたメソッドを実行できません。
+
+AのインスタンスをBのインスタンスに変換することはできません。そのため、コンパイルは問題なく通りますが、実行すると型の変換に失敗した旨の例外がスローされます。
+
+```java
+public class AClass {
+	void hello() {
+		System.out.println("helloA");
+	}
+}
+```
+
+```java
+public class AClass {
+	void hello() {
+		System.out.println("helloA");
+	}
+}
+```
+
+```java
+public class Sample implements Interface {
+	public static void main(String[] args) {
+		AClass a = new AClass();
+		BClass b = (BClass)a; // コンパイルは通るが、実行時に例外がスローされる。
+		b.hello();
+	}
+}
+```

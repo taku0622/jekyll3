@@ -10,14 +10,10 @@ toc: true
 
 Readinging Scrum book☕
 
-仕事の先輩から
+仕事の先輩から業務導入しているスクラム開発についての本をお借りしたのでメモします。
 
-以前、java bronzeを取得したので、silverの勉強を進めていこうと思います。参考書は下記を使用しています。
-
-**徹底攻略Java SE 11 Silver問題集[1Z0-815] 対応**
-<img src="https://images-na.ssl-images-amazon.com/images/I/516G9d-lTgL._SX351_BO1,204,203,200_.jpg" width="200px">
-
-参考書の問題と解説を読んで、必要だと思った箇所をメモしていきます。
+**SCRUM BOOT CAMP THE BOOK【増補改訂版】 スクラムチームではじめるアジャイル開発**
+<img src="https://m.media-amazon.com/images/I/51Az2GGiHGL.jpg" width="200px">
 
 ## 第1章 簡単なJavaプログラムの作成
 

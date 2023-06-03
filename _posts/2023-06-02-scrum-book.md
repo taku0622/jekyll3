@@ -2,8 +2,8 @@
 layout: post
 title: SCRUM BOOT CAMP
 author: taku
-date: 2023-06-02 17:00
-last_modified_at: 2023-06-03 18:00
+date: 2023-06-02 21:00
+last_modified_at: 2023-06-03 23:00
 tags: [読書]
 toc: true
 ---

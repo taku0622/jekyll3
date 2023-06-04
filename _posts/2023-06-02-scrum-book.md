@@ -282,3 +282,9 @@ Readinging Scrum book☕
 チームに要件を説明する際に使う資料
 <https://github.com/agile-samurai-ja/support/blob/master/blank-inception-deck/blank-inception-deck1-ja.ppt>
 
+### 所感
+
+- なんでも言い合えるコミュニケーションが大事。
+- 作る製品について、愛着というか、より良いものにしたい気持ちが大事。
+- ある程度の技術力が大事。
+- 23時まで残業してる。。。

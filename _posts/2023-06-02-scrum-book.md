@@ -275,6 +275,12 @@ Readinging Scrum book☕
 - スプリントレビュー：スプリントで完成した動作するソフトウェアをデモしフィードバックを得る
 - スプリントレトロスペクティブ：スプリントの中での改善事項を話し合い次につなげる
 
+## メモ
+
+### No.2
+
+チームに要件を説明する際に使う資料
+<https://github.com/agile-samurai-ja/support/blob/master/blank-inception-deck/blank-inception-deck1-ja.ppt>
 
 
 ### No.20

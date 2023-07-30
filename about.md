@@ -36,11 +36,11 @@ toc:  true
 
 卒業研究でLINEBotを作った際に使用しました。その際はフレームワークであるLaravelを使用しました。[PHP マニュアル](https://www.php.net/manual/ja/index.php)と[クエリビルダ](https://readouble.com/laravel/8.x/ja/queries.html)にはお世話になりました。
 
-### Vue.js　<i class="<i class="fa-brands fa-vuejs"></i>" style="font-size:1.2em;"></i>
+### Vue.js　<i class="<i class="fa-brands fa-vuejs" style="font-size:1.2em;"></i>
 
 業務で書いてます。勉強中です。
 
-### Vue.js　<i class="<i class="fa-brands fa-js"></i>" style="font-size:1.2em;"></i>
+### Vue.js　<i class="<i class="fa-brands fa-js" style="font-size:1.2em;"></i>
 
 業務で書いてます。勉強中です。
 
@@ -50,7 +50,12 @@ toc:  true
 
 ##  certification🧪
 
-### Java　<i class="fab fa-java" style="font-size:1.2em;"></i>
+### 2022/03/12 1Z0-818 Java SE Bronze <i class="fab fa-java" style="font-size:1.2em;"></i>
+
+rate/border(%)
+80/60
+
+<img src="https://m.media-amazon.com/images/I/51Az2GGiHGL.jpg" width="200px">
 
 大学2年間の講義を受けていましたがほぼ書けないです。Springとか触ってみたいです。
 

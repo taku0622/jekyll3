@@ -58,7 +58,7 @@ rate/border(%)
 
 <img src="./certification/JavaBronze.jpg" width="200px">
 
-### 2022/03/12 1Z0-818 Java SE Bronze <i class="fab fa-java" style="font-size:1.2em;"></i>
+### 2022/09/24 1Z0-815 Java SE 11 Programmer I <i class="fab fa-java" style="font-size:1.2em;"></i>
 
 rate/border(%)
 80/60
@@ -67,7 +67,7 @@ rate/border(%)
 
 <img src="./certification/JavaBronze.jpg" width="200px">
 
-### 2022/03/12 1Z0-818 Java SE Bronze <i class="fab fa-java" style="font-size:1.2em;"></i>
+### 2023/03/21 1Z0-071 Oracle Database SQL <i class="fab fa-database" style="font-size:1.2em;"></i>
 
 rate/border(%)
 80/60

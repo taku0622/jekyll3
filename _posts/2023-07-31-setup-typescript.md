@@ -13,7 +13,7 @@ Set Up TypeScript🌙
 私用PCにもTypeScriptの開発環境を構築する。
 
 **超TypeScript入門 完全パック**
-<img src="https://images.app.goo.gl/QrekmNyNC8A3p8RS7" width="200px">
+<img src="https://img-c.udemycdn.com/course/480x270/2785212_a1d0_7.jpg" width="200px">
 
 ## TypeScriptってなに？
 
@@ -62,3 +62,4 @@ tsc index.ts
 + "for (let i = startIndex ?? 0;～～"以下参照
 	<https://zenn.dev/hayato94087/articles/cdf411c0181820>
 	<https://kumaskun.hatenablog.com/entry/2019/10/23/231348>
+

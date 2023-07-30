@@ -77,7 +77,7 @@ rate/border(%)
 rate/border(%)
 80/60
 
-<img src="./JavaBronze.jpg" width="200px">
+<img src="JavaBronze.jpg" width="200px">
 
 ***
 

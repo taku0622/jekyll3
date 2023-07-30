@@ -40,7 +40,7 @@ title: About
 
 業務で書いてます。勉強中です。
 
-### TypeScript　<i class="fab fa-js" style="font-size:1.2em;"></i>
+### JavaScript/TypeScript　<i class="fab fa-js" style="font-size:1.2em;"></i>
 
 業務で書いてます。勉強中です。
 
@@ -79,7 +79,7 @@ rate/border(%)
 
 ![JavaBronze](./certification/JavaBronze.jpg)
 
-<img src="./certification/JavaBronze.jpg" width="200px">
+<img src="./certification/JavaBronze.jpg" width="200px"></img>
 
 
 ***

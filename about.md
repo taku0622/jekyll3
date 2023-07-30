@@ -40,7 +40,7 @@ title: About
 
 業務で書いてます。勉強中です。
 
-### TypeScript　<i class="fab fa-house"></i>
+### TypeScript　<i class="fab fa-js" style="font-size:1.2em;"></i>
 
 業務で書いてます。勉強中です。
 

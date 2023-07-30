@@ -36,6 +36,14 @@ toc:  true
 
 卒業研究でLINEBotを作った際に使用しました。その際はフレームワークであるLaravelを使用しました。[PHP マニュアル](https://www.php.net/manual/ja/index.php)と[クエリビルダ](https://readouble.com/laravel/8.x/ja/queries.html)にはお世話になりました。
 
+### Vue.js　<i class="<i class="fa-brands fa-vuejs"></i>" style="font-size:1.2em;"></i>
+
+業務で書いてます。勉強中です。
+
+### Vue.js　<i class="<i class="fa-brands fa-js"></i>" style="font-size:1.2em;"></i>
+
+業務で書いてます。勉強中です。
+
 ***
 
 ## contact🤝

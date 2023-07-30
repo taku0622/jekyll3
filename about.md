@@ -77,10 +77,7 @@ rate/border(%)
 rate/border(%)
 80/60
 
-![JavaBronze](./certification/JavaBronze.jpg)
-
-<img src="./certification/JavaBronze.jpg" width="200px"></img>
-
+<img src="./JavaBronze.jpg" width="200px">
 
 ***
 

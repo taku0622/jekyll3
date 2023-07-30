@@ -40,7 +40,7 @@ toc:  true
 
 ## contact🤝
 
-- [GitHub](https://github.com/taku0622){:target="_blank"}
+- [twitter](https://twitter.com/creepy_cats){:target="_blank"}
 
 ***
 

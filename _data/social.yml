@@ -1,9 +1,9 @@
-- title: instagram
-  url: https://www.instagram.com/maple_taku
-  icon: fab fa-instagram
-# - title: Twitter
-#   url: https://twitter.com/vszhub
-#   icon: fab fa-twitter
+# - title: instagram
+#   url: https://www.instagram.com/maple_taku
+#   icon: fab fa-instagram
+- title: Twitter
+  url: https://twitter.com/vszhub
+  icon: fab fa-twitter
 - title: GitHub
   url: https://github.com/taku0622
   icon: fab fa-github

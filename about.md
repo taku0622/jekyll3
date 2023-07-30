@@ -54,9 +54,7 @@ toc:  true
 rate/border(%)
 80/60
 
-<img src="./certification/バッジ_JavaBronze.jpg" width="200px">
-
-大学2年間の講義を受けていましたがほぼ書けないです。Springとか触ってみたいです。
+<img src="./certification/JavaBronze.jpg" width="200px">
 
 ### C　<i class="fas fa-copyright" style="font-size:1.2em;"></i>
 

@@ -2,8 +2,8 @@
 layout: post
 title: Set Up TypeScript
 author: taku
-date: 2023-07-31 0:00
-last_modified_at: 2023-07-31 0:15
+date: 2023-07-30 0:00
+last_modified_at: 2023-07-30 0:15
 tags: [ts]
 toc: true
 ---
@@ -37,3 +37,28 @@ node.js公式HPからインストーラーをダウンロードする。
 ```bash
 npm i -g typescript
 ```
+
+## TypeScript実行方法
+
+例）
+
+- index.tsを作成する
+
+```ts
+let hello: string = 'hello';
+console.log(hello);
+```
+
+- tscコマンドでコンパイルしてjsファイル作成
+
+```bash
+tsc index.ts
+```
+
+エラーが出た場合(powershell))
++ "このシステムではスクリプトの実行が無効～～"以下参照
+	<https://rainbow-engine.com/ps-script-execution-disabled/>
+
++ "for (let i = startIndex ?? 0;～～"以下参照
+	<https://zenn.dev/hayato94087/articles/cdf411c0181820>
+	<https://kumaskun.hatenablog.com/entry/2019/10/23/231348>

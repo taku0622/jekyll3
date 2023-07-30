@@ -49,7 +49,9 @@ title: About
 
 ##  certification🧪
 
-### 2023/03/21 1Z0-071 Oracle Database SQL <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+### 2023/03/21 1Z0-071 Oracle Database SQL <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
 
 rate/border(%)
 

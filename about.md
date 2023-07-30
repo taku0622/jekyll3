@@ -54,7 +54,8 @@ toc:  true
 rate/border(%)
 80/60
 
-<img src="./screenshot.png" width="200px">
+<img src="screenshot.png" width="200px">
+![Screenshot](screenshot.png)
 
 ***
 

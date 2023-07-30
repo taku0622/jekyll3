@@ -54,7 +54,7 @@ toc:  true
 rate/border(%)
 80/60
 
-<img src="https://m.media-amazon.com/images/I/51Az2GGiHGL.jpg" width="200px">
+<img src="./certification/バッジ_JavaBronze.jpg" width="200px">
 
 大学2年間の講義を受けていましたがほぼ書けないです。Springとか触ってみたいです。
 

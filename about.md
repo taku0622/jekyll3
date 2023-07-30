@@ -40,7 +40,7 @@ toc:  true
 
 業務で書いてます。勉強中です。
 
-### JavaScript　<i class="fa-brands fa-js"></i>
+### TypeScript　<i class="fa-solid fa-house"></i>
 
 業務で書いてます。勉強中です。
 
@@ -55,6 +55,7 @@ rate/border(%)
 80/60
 
 ![JavaBronze](./certification/JavaBronze.jpg)
+<img src="./certification/JavaBronze.jpg" width="200px">
 
 ***
 

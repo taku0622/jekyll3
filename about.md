@@ -65,7 +65,7 @@ rate/border(%)
 
 <img src="./certification/JavaBronze.jpg" width="200px">
 
-### 2023/03/21 1Z0-071 Oracle Database SQL <i class="fa-solid fa-database" style="font-size:1.2em;"></i>
+### 2023/03/21 1Z0-071 Oracle Database SQL<i class="fa-solid fa-database" style="font-size:1.2em;"></i>
 
 rate/border(%)
 65/63

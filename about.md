@@ -36,11 +36,11 @@ title: About
 
 卒業研究でLINEBotを作った際に使用しました。その際はフレームワークであるLaravelを使用しました。[PHP マニュアル](https://www.php.net/manual/ja/index.php)と[クエリビルダ](https://readouble.com/laravel/8.x/ja/queries.html)にはお世話になりました。
 
-### Vue.js　<i class="fa-brands fa-vuejs" style="font-size:1.2em;"></i>
+### Vue.js　<i class="fab fa-vuejs" style="font-size:1.2em;"></i>
 
 業務で書いてます。勉強中です。
 
-### TypeScript　<i class="fa-solid fa-house"></i>
+### TypeScript　<i class="fab fa-house"></i>
 
 業務で書いてます。勉強中です。
 

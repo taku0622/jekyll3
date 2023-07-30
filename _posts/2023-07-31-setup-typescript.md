@@ -42,24 +42,35 @@ npm i -g typescript
 
 例）
 
-- index.tsを作成する
+1. index.tsを作成する
 
 ```ts
 let hello: string = 'hello';
 console.log(hello);
 ```
 
-- tscコマンドでコンパイルしてjsファイル作成
+2. tscコマンドでコンパイルしてjsファイル作成
 
 ```bash
 tsc index.ts
 ```
 
 エラーが出た場合(powershell))
-+ "このシステムではスクリプトの実行が無効～～"以下参照
+- "このシステムではスクリプトの実行が無効～～"以下参照
 	<https://rainbow-engine.com/ps-script-execution-disabled/>
 
-+ "for (let i = startIndex ?? 0;～～"以下参照
+- "for (let i = startIndex ?? 0;～～"以下参照
 	<https://zenn.dev/hayato94087/articles/cdf411c0181820>
 	<https://kumaskun.hatenablog.com/entry/2019/10/23/231348>
 
+3. コンパイルで作成されたindex.jsを実行
+
+'''bash
+node index.js
+'''
+
+実行結果
+
+'''bash
+hello
+'''

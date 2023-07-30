@@ -58,6 +58,34 @@ rate/border(%)
 
 <img src="./certification/JavaBronze.jpg" width="200px">
 
+### 2022/03/12 1Z0-818 Java SE Bronze <i class="fab fa-java" style="font-size:1.2em;"></i>
+
+rate/border(%)
+80/60
+
+![JavaBronze](./certification/JavaBronze.jpg)
+
+<img src="./certification/JavaBronze.jpg" width="200px">
+
+### 2022/03/12 1Z0-818 Java SE Bronze <i class="fab fa-java" style="font-size:1.2em;"></i>
+
+rate/border(%)
+80/60
+
+![JavaBronze](./certification/JavaBronze.jpg)
+
+<img src="./certification/JavaBronze.jpg" width="200px">
+
+### 2022/03/12 1Z0-818 Java SE Bronze <i class="fab fa-java" style="font-size:1.2em;"></i>
+
+rate/border(%)
+80/60
+
+![JavaBronze](./certification/JavaBronze.jpg)
+
+<img src="./certification/JavaBronze.jpg" width="200px">
+
+
 ***
 
 ## contact🤝

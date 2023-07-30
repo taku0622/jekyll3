@@ -59,7 +59,7 @@ rate/border(%)
 ### 2022/09/24 1Z0-815 Java SE 11 Programmer I <i class="fab fa-java" style="font-size:1.2em;"></i>
 
 rate/border(%)
-80/60
+70/63
 
 ![JavaBronze](./certification/JavaBronze.jpg)
 

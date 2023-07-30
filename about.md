@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-toc:  true
+# toc:  true
 ---
 
 ## Hello👋
@@ -55,6 +55,7 @@ rate/border(%)
 80/60
 
 ![JavaBronze](./certification/JavaBronze.jpg)
+
 <img src="./certification/JavaBronze.jpg" width="200px">
 
 ***

@@ -40,7 +40,7 @@ toc:  true
 
 業務で書いてます。勉強中です。
 
-### JavaScript　<i class="fa-brands fa-js" style="font-size:1.2em;"></i>
+### JavaScript　<i class="fa-brands fa-js"></i>
 
 業務で書いてます。勉強中です。
 

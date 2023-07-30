@@ -49,28 +49,30 @@ toc:  true
 
 ##  certification🧪
 
-### 2022/03/12 1Z0-818 Java SE Bronze <i class="fab fa-java" style="font-size:1.2em;"></i>
+### 2023/03/21 1Z0-071 Oracle Database SQL <i class="fa-solid fa-database" style="font-size:1.2em;"></i>
 
 rate/border(%)
-80/60
 
-![JavaBronze](./certification/JavaBronze.jpg)
+65/63
+
+![SQLSilver](./certification/SQLSilver.jpg)
 
 ### 2022/09/24 1Z0-815 Java SE 11 Programmer I <i class="fab fa-java" style="font-size:1.2em;"></i>
 
 rate/border(%)
+
 70/63
 
 ![JavaSilver](./certification/JavaSilver.jpg)
 
 <img src="certification/JavaBronze.jpg" width="200px">
 
-### 2023/03/21 1Z0-071 Oracle Database SQL<i class="fa-solid fa-database" style="font-size:1.2em;"></i>
+### 2022/03/12 1Z0-818 Java SE Bronze <i class="fab fa-java" style="font-size:1.2em;"></i>
 
 rate/border(%)
-65/63
+80/60
 
-![SQLSilver](./certification/SQLSilver.jpg)
+![JavaBronze](./certification/JavaBronze.jpg)
 
 ### 2022/03/12 1Z0-818 Java SE Bronze <i class="fab fa-java" style="font-size:1.2em;"></i>
 

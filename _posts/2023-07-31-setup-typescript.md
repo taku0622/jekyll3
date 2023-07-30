@@ -65,12 +65,13 @@ tsc index.ts
 
 3. コンパイルで作成されたindex.jsを実行
 
-'''bash
+```bash
 node index.js
-'''
+```
 
 実行結果
 
-'''bash
+```bash
 hello
-'''
+```
+

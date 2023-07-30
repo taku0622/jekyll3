@@ -54,7 +54,7 @@ toc:  true
 rate/border(%)
 80/60
 
-<img src="./certification/JavaBronze.jpg" width="200px">
+<img src="./screenshot.png" width="200px">
 
 ***
 

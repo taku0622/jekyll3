@@ -61,18 +61,16 @@ rate/border(%)
 rate/border(%)
 70/63
 
-![JavaBronze](./certification/JavaBronze.jpg)
+![JavaSilver](./certification/JavaSilver.jpg)
 
 <img src="./certification/JavaBronze.jpg" width="200px">
 
 ### 2023/03/21 1Z0-071 Oracle Database SQL <i class="fab fa-database" style="font-size:1.2em;"></i>
 
 rate/border(%)
-80/60
+65/63
 
-![JavaBronze](./certification/JavaBronze.jpg)
-
-<img src="./certification/JavaBronze.jpg" width="200px">
+![SQLSilver](./certification/SQLSilver.jpg)
 
 ### 2022/03/12 1Z0-818 Java SE Bronze <i class="fab fa-java" style="font-size:1.2em;"></i>
 

@@ -72,10 +72,7 @@ rate/border(%)
 
 ![JavaBronze](./certification/JavaBronze.jpg)
 
-### 2022/03/12 1Z0-818 Java SE Bronze <i class="fab fa-java" style="font-size:1.2em;"></i>
-
-rate/border(%)
-80/60
+### 2021/09/14 ITパスポート 💾
 
 
 ***

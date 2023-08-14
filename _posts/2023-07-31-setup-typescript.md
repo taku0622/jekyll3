@@ -106,3 +106,10 @@ let double: string = "hello";
 let back: string = `hello`;
 ```
 
+### 型注釈&型推論
+
+型注釈：変数宣言の際の ***: string*** の部分。
+
+型推論：型注釈を省略したもの。
+
+

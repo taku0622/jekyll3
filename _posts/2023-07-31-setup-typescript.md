@@ -112,4 +112,23 @@ let back: string = `hello`;
 
 型推論：型注釈を省略したもの。
 
+### object
+
+```ts
+// object
+// 型注釈
+const person1: {
+  name: string;
+  age: number;
+} = {
+  name: 'jack',
+  age: 21
+}
+// 型推論
+const person2 = {
+  name: 'jack',
+  age: 21
+}
+```
+
 

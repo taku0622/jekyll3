@@ -75,3 +75,19 @@ node index.js
 hello
 ```
 
+## TypeScriptの型
+
+TypeScriptとJavaScriptの型は全く別物。
+型検査するものが違う。
+
+TypeScript：tsc
+
+JavaScript：JavaScriptエンジン(ブラウザに搭載されているもの。chrome：v8エンジン、FireFox：SpiderMonkey、Edge：chakra、Safari：JavaScriptコア)
+
+
+TypeScript → JavaScript → 機械語　のイメージ
+
+TypeScriptのString型とJavaScriptのString型は違うもの。
+
+### 
+

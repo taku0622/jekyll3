@@ -30,7 +30,8 @@ toc:  true
 
 ### Ruby　<i class="fas fa-gem" style="font-size:1.0em;"></i>
 
-独学で書いています。[AtCoder](https://atcoder.jp/?lang=ja)で使っています。レートは灰です。RailsやJekyllで使いました。
+学生時代にRailsやJekyllを使ってみました。
+このサイトもJekyllを使っています。
 
 ### PHP　<i class="fab fa-php" style="font-size:1.2em;"></i>
 
@@ -86,8 +87,5 @@ rate/border(%)
 
 ## finally🐉
 
-**WE GOTTA POWER!!🔥🔥🔥**
-
-![WE GOTTA POWER](https://i.pinimg.com/originals/89/7b/7e/897b7ef20f19ac795065763477dc7127.gif) 
-
+✌☺
 

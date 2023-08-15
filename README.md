@@ -102,7 +102,7 @@ For example, below we've created the beginnings of a blue theme:
 // Example blue theme
 [data-theme="blue"] {
   --body-bg: var(--blue);
-  --body-color: #fff;
+  --body-color: #000;
 }
 ```
 

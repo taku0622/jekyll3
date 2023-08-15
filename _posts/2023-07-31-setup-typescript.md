@@ -148,3 +148,9 @@ const fruits1: string[] = ['Apple', 'Banana', 'Grape']
 // 型推論
 const fruits2 = ['Apple', 'Banana', 'Grape']
 ```
+
+### Tuple
+
+明示的に型注釈をして型・要素数をする型。
+
+オブジェクト型に近い。

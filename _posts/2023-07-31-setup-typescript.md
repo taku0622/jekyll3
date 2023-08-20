@@ -154,3 +154,15 @@ const fruits2 = ['Apple', 'Banana', 'Grape']
 明示的に型注釈をして型・要素数をする型。
 
 オブジェクト型に近い。
+
+配列に制限をかけたもの。
+
+```ts
+
+// Tuple
+const book: [string, number, boolean] = ['business', 1500, false];
+book.push(21);
+book[1] = 700; // 値変更
+console.log(book[2]); // 値参照
+console.log(book[3]); // 後から入れたものは参照できない
+```

@@ -185,6 +185,8 @@ const coffee = {
 coffee.size = 'hello' // 値変更できてしまう。
 ```
 
+(sizeを)特定のまとまったグループのみを受け入れるようにする。
+
 ```ts
 enum CoffeeSize {
   SHORT = 'SHORT',
@@ -195,5 +197,17 @@ enum CoffeeSize {
 const coffee = {
   hot: true,
   size: CoffeeSize.TALL
+}
+```
+
++＠
+
+```ts
+// 初期化を省略すると要素数が入る
+enum CoffeeSize {
+  SHORT, // 0
+  TALL, // 1
+  GRANDE, // 2
+  VENTI // 3
 }
 ```

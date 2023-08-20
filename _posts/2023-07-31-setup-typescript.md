@@ -231,3 +231,6 @@ console.log(banana); // { name: 'john}
 ```
 
 ### union
+
+複数の型を受け入れられるようにした型。
+

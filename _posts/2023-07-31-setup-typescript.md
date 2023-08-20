@@ -166,3 +166,34 @@ book[1] = 700; // 値変更
 console.log(book[2]); // 値参照
 console.log(book[3]); // 後から入れたものは参照できない
 ```
+
+### Enum(列挙型)
+
+特定のまとまったグループのみを受け入れるようにする。
+
+```ts
+const CoffeeSize = {
+  SHORT: 'SHORT',
+  TALL: 'TALL',
+  GRANDE: 'GRANDE',
+  VENTI: 'VENTI'
+}
+const coffee = {
+  hot: true,
+  size: CoffeeSize.TALL
+}
+coffee.size = 'hello' // 値変更できてしまう。
+```
+
+```ts
+enum CoffeeSize {
+  SHORT = 'SHORT',
+  TALL = 'TALL',
+  GRANDE = 'GRANDE',
+  VENTI = 'VENTI'
+}
+const coffee = {
+  hot: true,
+  size: CoffeeSize.TALL
+}
+```

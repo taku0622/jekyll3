@@ -149,7 +149,7 @@ const fruits1: string[] = ['Apple', 'Banana', 'Grape']
 const fruits2 = ['Apple', 'Banana', 'Grape']
 ```
 
-### Tuple
+### tuple
 
 明示的に型注釈をして型・要素数をする型。
 
@@ -167,7 +167,7 @@ console.log(book[2]); // 値参照
 console.log(book[3]); // 後から入れたものは参照できない
 ```
 
-### Enum(列挙型)
+### enum(列挙型)
 
 特定のまとまったグループのみを受け入れるようにする。
 
@@ -211,3 +211,23 @@ enum CoffeeSize {
   VENTI // 3
 }
 ```
+
+### any
+
+なんでも入る型。
+
+正しくTypeScriptを書くためには、
+なるべくanyは使わない。
+
+```ts
+// any
+let anything: any = true;
+anything = 'hello';
+anything = ['hello', 33, true];
+anything = {};
+anything.name = 'john';
+let banana = anything; // こんなこともできてしまう。
+console.log(banana); // { name: 'john}
+```
+
+### union

@@ -242,3 +242,20 @@ unionType = 'hello';
 unionType.toUpperCase; // Stringで使えるメソッド
 let unionTypes: (number | string)[] = [21, 'hello', 5]; // 配列
 ```
+
+### literal
+
+決まった値のみを扱う型。
+
+```ts
+// literal
+const apple: 'apple' = 'apple';
+let clothSize: 'small' | 'medium' | 'large' = 'large';
+const cloth: {
+  color: string,
+  size: 'small' | 'medium' | 'large'
+} = {
+  color: 'white',
+  size: 'large'
+}
+```

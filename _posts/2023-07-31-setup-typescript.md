@@ -284,4 +284,10 @@ function add(num1: number, num2: number): number {
   return num1 + num2;
 }
 add(3, 4);
+
+// 関数：void
+function sayHello(): void {
+  console.log('hello!');
+}
+sayHello()
 ```

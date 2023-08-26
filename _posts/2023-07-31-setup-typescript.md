@@ -259,3 +259,19 @@ const cloth: {
   size: 'large'
 }
 ```
+
+### type alias
+
+複雑な型を変数のように扱う。
+
+```ts
+// typeエイリアス
+type clothSize = 'small' | 'medium' | 'large';
+const cloth: {
+  color: string,
+  size: clothSize
+} = {
+  color: 'white',
+  size: 'large'
+}
+```

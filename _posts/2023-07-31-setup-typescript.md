@@ -275,3 +275,13 @@ const cloth: {
   size: 'large'
 }
 ```
+
+### 関数に型をつける
+
+```ts
+// 関数：足し算
+function add(num1: number, num2: number): number {
+  return num1 + num2;
+}
+add(3, 4);
+```

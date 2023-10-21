@@ -27,3 +27,19 @@ flag = 1 === '1'; // false
 flag = 2 == 2; // true
 flag = 2 == '2' // true
 ```
+
+また、どちらもオブジェクトや配列の比較はfalseになる。
+
+```js
+const coffee1 = { name: "black", size: "small" };
+const coffee2 = { name: "black", size: "small" };
+
+console.log(coffee1 === coffee2); // false
+console.log(coffee1 == coffee2); // false
+
+const fruits1 = ["apple", "banana"];
+const fruits2 = ["apple", "banana"];
+
+console.log(fruits1 === fruits2); // false
+console.log(fruits1 == fruits2); // false
+```

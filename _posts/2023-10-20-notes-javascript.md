@@ -44,4 +44,21 @@ console.log(fruits1 === fruits2); // false
 console.log(fruits1 == fruits2); // false
 ```
 
+## Truthy vs Falsy
 
+条件式で使用される真偽値の判定基準。
+
+Falsy一覧は以下になっている。
+
+|  値  |  型  |  説明  |
+| --------- |--------- |--------- |
+|  null  |  null  |  キーワード null : 値が存在しないことを示します。  |
+|  undefined  |  undefined  |  undefined :プリミティブ値。  |
+|  false  |  論理値型  |  	キーワード false。  |
+|  NaN  |  数値型  |  NaN : 数値ではない  |
+|  0  |  数値型  |  数値ゼロ （従って、 0.0 や 0x0 なども含みます）。  |
+|  -0  |  数値型  |  長整数型のゼロ（従って、 0x0n も含みます）。なお、長整数型にはマイナスゼロはありません。 0n の負の数は 0n です。  |
+|  ""  |  	文字列型  |  空文字列値。'' や `` も含みます。  |
+|  document.all  |  	オブジェクト  |  JavaScript で唯一の偽値のオブジェクトは、組み込みの document.all です。  |
+
+URL:https://developer.mozilla.org/ja/docs/Glossary/Falsy

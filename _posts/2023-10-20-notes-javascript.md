@@ -108,6 +108,6 @@ const userName = inputUser || 'sampleName'; // sampleName
 - 左側が **Null, undefined** であれば、右側の値を返す。
 - AND演算子やOR演算子と一緒に使えない。※括弧を使えば、使用可能。
 
-``js
+```js
 let user = '' ?? 'Taro'; // 空文字を返す
-``
+```

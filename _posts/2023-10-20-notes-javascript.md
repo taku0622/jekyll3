@@ -100,3 +100,14 @@ ok = '' || 'ok'; // ok
 const inputUser = ''
 const userName = inputUser || 'sampleName'; // sampleName
 ```
+
+### Null合体演算子(Nullish Coalescing)
+
+論理和演算子に似ているが、
+- 左側が **Truthy, 空文字**であれば、左側の値を返す。
+- 左側が **Null, undefined** であれば、右側の値を返す。
+- AND演算子やOR演算子と一緒に使えない。※括弧を使えば、使用可能。
+
+``js
+let user = '' ?? 'Taro'; // 空文字を返す
+``

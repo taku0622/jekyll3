@@ -97,5 +97,6 @@ ok = '' || 'ok'; // ok
 上記のコードはユーザがユーザ名を入力しない時などに使える。
 
 ```js
-const userName = inputUser || 'sampleName';
+const inputUser = ''
+const userName = inputUser || 'sampleName'; // sampleName
 ```

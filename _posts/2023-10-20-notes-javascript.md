@@ -62,3 +62,40 @@ Falsy一覧は以下になっている。
 |  document.all  |  	オブジェクト  |  JavaScript で唯一の偽値のオブジェクトは、組み込みの document.all です。  |
 
 URL:https://developer.mozilla.org/ja/docs/Glossary/Falsy
+
+## 論理演算子
+
+基礎は以下。
+
+```js
+ok = true && false;
+console.log(ok); // false
+ok = true || false;
+console.log(ok); // true
+```
+
+応用的な考えは以下。
+
+論理積演算子：
+- 左側がTruthyであれば、右側の値を返す。
+- 左側がFalsyであれば、左側の値を返す。
+
+```js
+ok = 'hello' && 'ok'; // ok
+ok = 0 && 'ok'; // 0(Falsyのため)
+```
+
+論理和演算子：
+- 左側がTruthyであれば、左側の値を返す。
+- 左側がFalsyであれば、右側の値を返す。
+
+```js
+ok = 'hello' || 'ok'; // hello
+ok = '' || 'ok'; // ok
+```
+
+上記のコードはユーザがユーザ名を入力しない時などに使える。
+
+```js
+const userName = inputUser || 'sampleName';
+```

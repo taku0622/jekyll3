@@ -261,3 +261,35 @@ const person = {
 };
 console.log(person.sayHi());  // Hi
 ```
+
+### アロー関数
+
+無名関数を簡単に書き換えたもの。
+
+```js
+const sayHiAnonymous = function (name) { // 無名関数
+  return `Hi ${name} !`;
+}
+console.log(sayHiAnonymous('Taro'));  // Hi Taro !
+
+const sayHiArrow = (name) => {       // アロー関数
+  return `Hi ${name} !`;
+}
+console.log(sayHiArrow('Jiro'));  // Hi Jiro !
+```
+
+アロー関数のメリット 3点
+
+1. 1つの式の場合は波括弧・returnを省略できる。
+
+```js
+const sayHiArrow = (name) => `Hi ${name} !`;
+console.log(sayHiArrow('Jiro'));  // Hi Jiro !
+```
+
+2. パラメータが1つだけの場合、丸括弧を省略できる。
+
+```js
+const sayHiArrow = name => `Hi ${name} !`;
+console.log(sayHiArrow('Jiro'));  // Hi Jiro !
+```

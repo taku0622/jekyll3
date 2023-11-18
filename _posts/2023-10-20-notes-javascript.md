@@ -203,7 +203,9 @@ const newAdd = add; // オブジェクトの代入
 console.log(newAdd(3, 4)); // 7
 ```
 
-functionから始まるものを関数宣言文(関数オブジェクトを作成 + 変数addを作り代入している)
+functionから始まるものを **関数宣言文** (関数オブジェクトを作成 + 変数addを作り代入している)
+
+また、関数宣言文だけでなく、**関数宣言、関数文、Function文** ともいう。
 
 ### 関数式
 
@@ -220,3 +222,4 @@ console.log(sayHi());     // hi
 console.log(sayHello());  // hello
 console.log(hi());        // エラーになる。
 ```
+

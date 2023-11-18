@@ -128,3 +128,18 @@ const fruit = fruits[i]が要素数毎に宣言されているイメージ。
 
 
 iterableなオブジェクトで使用可能。(※iterable:反復可能)
+
+### for-in文
+
+```js
+const coffee = {
+  name: 'Caffe latte',
+  size: 350,
+  isHot: true,
+};
+for (const key in coffee) {
+  console.log(coffee[key]);
+}
+```
+
+for-in文はオブジェクトに使う。

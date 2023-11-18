@@ -157,6 +157,8 @@ for (const key in fruits) {
 複数ネストから抜け出す時に使う。
 labelとbreakを1組で使う。
 
+分かりにくいので、一般的にはあまり使われない。
+
 ```js
 const coffee = {
   name: 'Caffe latte',

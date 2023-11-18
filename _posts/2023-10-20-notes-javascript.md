@@ -151,3 +151,33 @@ for (const key in fruits) {
   console.log(fruits[key]);
 }
 ```
+
+### label文
+
+複数ネストから抜け出す時に使う。
+labelとbreakを1組で使う。
+
+```js
+const coffee = {
+  name: 'Caffe latte',
+  size: 350,
+  isHot: true,
+};
+coffeepoint: if (true) {
+  for (const key in coffee) {
+    if (key === 'size') {
+      console.log('break!!');
+      break coffeepoint;
+    }
+    console.log(key);
+    console.log(coffee[key]);
+  }
+}
+```
+
+実行結果
+```
+name
+Caffe latte
+break!!
+```

@@ -202,3 +202,20 @@ console.log(add.length); // 2 ※引数の数
 const newAdd = add; // オブジェクトの代入
 console.log(newAdd(3, 4)); // 7
 ```
+
+functionから始まるものを関数宣言文(関数オブジェクトを作成 + 変数addを作り代入している)
+
+### 関数式
+
+自分解釈：関数オブジェクトを明示的に変数に入れたもの。
+
+```js
+const sayHi = function hi() { // 名前付き関数
+  return "hi"
+}
+const sayHello = function () {  // 無名関数 
+  return "hello"
+}
+console.log(sayHi());     // hi
+console.log(sayHello());  // hello
+```

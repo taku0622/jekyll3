@@ -260,4 +260,4 @@ const person = {
   },
 };
 console.log(person.sayHi());  // Hi
-  ```
+```

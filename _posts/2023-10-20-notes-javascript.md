@@ -112,7 +112,7 @@ const userName = inputUser || 'sampleName'; // sampleName
 let user = '' ?? 'Taro'; // 空文字を返す
 ```
 
-## 配列
+## Loop
 
 ### for-of文
 

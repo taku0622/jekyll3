@@ -229,4 +229,19 @@ console.log(hi());        // エラーになる。
 
 関数宣言文：巻き上げられない。→宣言箇所よりも上の位置で呼ぶと実行できない。
 
+```js
+console.log(add(8, 9)); // 17 ※実行可能
+function add(a, b) {
+  return a + b;
+}
 
+console.log(sayHi());     //  実行できない　参照エラー
+const sayHi = function hi() {
+  return "hi"
+}
+```
+
+|  |  関数宣言文  |  関数式  |
+| --------- |--------- |--------- |
+|  メリット  | -------- |  キーワード null : 値が存在しないことを示します。  |
+|  デメリット  |  undefined  |  undefined :プリミティブ値。  |

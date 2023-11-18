@@ -127,7 +127,4 @@ for文内でconstが使われている。
 const fruit = fruits[i]が要素数毎に宣言されているイメージ。
 
 
-iterableなオブジェクトで使用可能。
-
-
-※iterable:反復可能
+iterableなオブジェクトで使用可能。(※iterable:反復可能)

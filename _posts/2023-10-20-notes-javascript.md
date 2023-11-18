@@ -111,3 +111,16 @@ const userName = inputUser || 'sampleName'; // sampleName
 ```js
 let user = '' ?? 'Taro'; // 空文字を返す
 ```
+
+## 配列
+
+### for-of文
+
+```js
+const fruits = ['apple', 'banana', 'grape', 'orange', 'mango'];
+for (const fruit of fruits) {
+  console.log(fruit);
+}
+```
+
+for文内でconstが使われているが、

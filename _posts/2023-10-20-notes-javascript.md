@@ -123,4 +123,11 @@ for (const fruit of fruits) {
 }
 ```
 
-for文内でconstが使われているが、
+for文内でconstが使われている。
+const fruit = fruits[i]が要素数毎に宣言されているイメージ。
+
+
+iterableなオブジェクトで使用可能。
+
+
+※iterable:反復可能

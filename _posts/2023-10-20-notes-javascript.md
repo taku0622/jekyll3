@@ -287,9 +287,22 @@ const sayHiArrow = (name) => `Hi ${name} !`;
 console.log(sayHiArrow('Jiro'));  // Hi Jiro !
 ```
 
+※オブジェクトを返したい場合、丸括弧をつける
+！！
+
+```js
+const person = (name) => ({
+  name: name,
+  age: 16,
+});
+console.log(person('Jiro').age);  // 16
+```
+
 2. パラメータが1つだけの場合、丸括弧を省略できる。
 
 ```js
 const sayHiArrow = name => `Hi ${name} !`;
 console.log(sayHiArrow('Jiro'));  // Hi Jiro !
 ```
+
+3. 

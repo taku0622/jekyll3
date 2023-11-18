@@ -218,4 +218,5 @@ const sayHello = function () {  // 無名関数
 }
 console.log(sayHi());     // hi
 console.log(sayHello());  // hello
+console.log(hi());        // エラーになる。
 ```

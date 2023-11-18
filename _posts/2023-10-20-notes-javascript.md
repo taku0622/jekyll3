@@ -143,3 +143,11 @@ for (const key in coffee) {
 ```
 
 for-in文はオブジェクトに使う。
+また、for-of同様、配列にも使える。
+
+```js
+const fruits = ['apple', 'banana', 'grape', 'orange', 'mango'];
+for (const key in fruits) {
+  console.log(fruits[key]);
+}
+```

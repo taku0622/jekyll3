@@ -247,3 +247,17 @@ const sayHi = function hi() {
 |  関数式  |  必ず呼び出し式の上に定義されている、constを使える(上書き不可能)  |
 
 どちらが良いかというのはないが、プロジェクト・プログラムの上で統一するのが良い。
+
+### メソッド
+
+オブジェクトのkey:valueのvalueに関数をいれた場合、その関数のことを **メソッド** という。
+
+```js
+const person = {
+  name: "Taro",
+  sayHi: function () {  // メソッド
+    return "Hi"
+  },
+};
+console.log(person.sayHi());  // Hi
+  ```

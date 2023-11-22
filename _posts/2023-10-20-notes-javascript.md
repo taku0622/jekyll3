@@ -329,3 +329,17 @@ let sum = (a, b, ...nums) => {
 }
 console.log(sum(1, 2, 3, 4, 5, 6));
 ```
+
+### コールバック関数
+
+関数の引数に関数を入れることができる。
+
+```js
+let substract = (a, b, callback) => {
+  let result = a - b;
+  callback(result);
+};
+substract(4, 3, (result) => {
+  console.log(result)           // 1
+});
+```

@@ -278,7 +278,7 @@ const sayHiArrow = (name) => {       // アロー関数
 console.log(sayHiArrow('Jiro'));  // Hi Jiro !
 ```
 
-アロー関数のメリット 3点
+アロー関数のメリット 2点
 
 1. 1つの式の場合は波括弧・returnを省略できる。
 
@@ -305,4 +305,11 @@ const sayHiArrow = name => `Hi ${name} !`;
 console.log(sayHiArrow('Jiro'));  // Hi Jiro !
 ```
 
-3. 
+### デフォルトパラメータ
+
+引数に何も指定しないor引数に **undifined** 場合の値を指定する。
+
+```js
+const sayHiArrow = (name = 'anonymous') => `Hi ${name} !`;
+console.log(sayHiArrow());  // Hi anonymous !
+```

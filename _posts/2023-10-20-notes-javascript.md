@@ -313,3 +313,19 @@ console.log(sayHiArrow('Jiro'));  // Hi Jiro !
 const sayHiArrow = (name = 'anonymous') => `Hi ${name} !`;
 console.log(sayHiArrow());  // Hi anonymous !
 ```
+
+### レストパラメータ
+
+残引数を配列としてまとめることができる。
+
+```js
+let sum = (a, b, ...nums) => {
+  console.log('a: ' + a);             // a: 1
+  console.log('b: ' + b);             // b: 2
+  console.log('...nums: ' + nums);    // ...nums: 3,4,5,6
+  let total = 0;
+  for (num of nums) { total += num }
+  return a + b + total;               // 21
+}
+console.log(sum(1, 2, 3, 4, 5, 6));
+```

@@ -357,3 +357,16 @@ substract(4, 3, (result) => {
 以前使用していた、緩いルール(スコープが大きいvar変数など)を使わせないようにして、厳しいルールでコードを書かせるもの。
 
 後方互換性による不備やバグを発生させないようにするもの。
+
+```js
+grape = "grape";    // var let const を使わずに宣言・代入できてしまう
+console.log(grape); // grape
+```
+
+```js
+'use strict'
+grape = "grape";
+console.log(grape); // Uncaught ReferenceError: grape is not defined
+```
+
+use strictを使用することでルールが厳しくなる。

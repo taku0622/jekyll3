@@ -381,6 +381,21 @@ use strictを使用することでルールが厳しくなる。
 |  undefined  |    |
 |  null  |    |
 
+表面上の理解
+
+コード順番
+1. let x = 8;
+2. let x = 13;
+3. x = y;
+
+primitive型はxのメモリ領域に直接入れる。
+
+メモリ領域内
+x = 13
+y = 13
+
 primitive型はイミュータブル(不可変)
+
+
 
 object型はミュータブル(可変)

@@ -371,12 +371,16 @@ console.log(grape); // Uncaught ReferenceError: grape is not defined
 
 use strictを使用することでルールが厳しくなる。
 
-### primitive vs object
+### primitive vs object(reference/参照型)
 
-|  primitive  |  pbject  |
+|  primitive  |  object  |
 | --------- |--------- |
 |  number  |  オブジェクト  |
 |  string  |  配列  |
 |  boolean  |  関数  |
 |  undefined  |    |
 |  null  |    |
+
+primitive型はイミュータブル(不可変)
+
+object型はミュータブル(可変)

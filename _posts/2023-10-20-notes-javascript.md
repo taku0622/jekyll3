@@ -364,7 +364,7 @@ console.log(grape); // grape
 ```
 
 ```js
-'use strict'
+'use strict';
 grape = "grape";
 console.log(grape); // Uncaught ReferenceError: grape is not defined
 ```

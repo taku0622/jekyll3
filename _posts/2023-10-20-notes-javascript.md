@@ -441,4 +441,25 @@ console.log(coffee.name);   // Espresso
 primitive型はイミュータブル(不可変)
 
 
+## 発展的な関数
 
+JavaScriptの関数は全てクロージャ。
+
+クロージャ：外部の変数の情報を持った関数。
+
+プライベート変数(参照が限られた)を作成することができる。
+
+例）
+
+```js
+let createCounter = () => {
+  let count = 0;
+  return () => {
+    count++;
+    console.log(count);
+  };
+};
+let counter = createCounter();
+counter(); // 1
+counter(); // 2
+```

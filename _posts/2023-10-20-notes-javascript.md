@@ -409,7 +409,7 @@ y = 13
 2. let y = {y:0};
 3. x = y;
 
-primitive型はxのメモリ領域に直接入れる。
+object型はxのメモリ領域に参照できるアドレスを入れる。
 
 メモリ領域内
 
@@ -424,8 +424,21 @@ y = 300(アドレス値を入れる)
 ---
 
 
+例）
+
+```js
+const coffee = {
+  name: 'Caffe Latte'
+};
+const coffee2 = coffee;     // アドレス値の代入
+coffee2.name = 'Espresso';
+console.log(coffee.name);   // Espresso
+```
+
+**object型のconstは値が変化する。**
+→ミュータブル(可変)
+
 primitive型はイミュータブル(不可変)
 
 
 
-object型はミュータブル(可変)

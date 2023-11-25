@@ -447,9 +447,9 @@ JavaScriptの関数は全てクロージャ。
 
 クロージャ：外部の変数の情報を持った関数。
 
-プライベート変数(参照が限られた)を作成することができる。
+プライベート(変更が限られた)変数を作成することができる。
 
-例）
+例1.カウンター）
 
 ```js
 let createCounter = () => {
@@ -462,4 +462,31 @@ let createCounter = () => {
 let counter = createCounter();
 counter(); // 1
 counter(); // 2
+```
+
+例2.人）個人的に、こちらについてはJavaなどのsetter, getterに近い印象。
+
+```js
+let genetatePerson = (name) => {
+  let age = 0;
+  return {
+    getName: () => name,
+    getAge: () => age,
+    incrementAge: () => {
+      age++;
+    },
+  };
+};
+const jiro = genetatePerson('Jiro');
+console.log(jiro.getAge()); // 0
+jiro.incrementAge();
+jiro.incrementAge();
+console.log(jiro.getAge()); // 2
+console.log(jiro.getName());// Jiro
+
+const tom = genetatePerson('Tom');
+tom.incrementAge();
+tom.incrementAge();
+tom.incrementAge();
+console.log(tom.getAge());  // 3
 ```

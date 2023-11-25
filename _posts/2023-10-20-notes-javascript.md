@@ -370,3 +370,13 @@ console.log(grape); // Uncaught ReferenceError: grape is not defined
 ```
 
 use strictを使用することでルールが厳しくなる。
+
+### primitive vs object
+
+|  primitive  |  pbject  |
+| --------- |--------- |
+|  number  |  オブジェクト  |
+|  string  |  配列  |
+|  boolean  |  関数  |
+|  undefined  |    |
+|  null  |    |

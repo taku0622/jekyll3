@@ -490,3 +490,18 @@ tom.incrementAge();
 tom.incrementAge();
 console.log(tom.getAge());  // 3
 ```
+
+### 再帰関数
+
+```js
+let factorial = (n) => {
+  if (n === 0) return 1;
+  return n * factorial(n - 1);
+}
+console.log(factorial(3)); // 6
+console.log(factorial(5)); // 120
+console.log(factorial(0)); // 1
+
+// 省略
+let factorial2 = (n) => n === 0 ? 1 : n * factorial2(n - 1);
+```

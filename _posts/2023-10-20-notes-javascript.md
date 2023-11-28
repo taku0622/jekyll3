@@ -562,7 +562,7 @@ console.log(Object.values(person));
 console.log(Object.entries(person));
 ```
 
-### Object property 削除
+### Object property
 
 ```js
 const interests = 'interests';
@@ -580,5 +580,16 @@ const person = {
 person.name = 'Taku'; // 値変更
 person.gender = 'man' // 値追加
 delete person.age;    //  property(age)削除
+```
+
+```js
+// propertyの省略
+const name = 'Espresso';
+const size = 350;
+const coffee = {
+  name,
+  size,
+};
+console.log(coffee);
 ```
 

@@ -8,7 +8,7 @@ tags: [js]
 toc: true
 ---
 
-Notes JavaScript👀
+Notes JavaScript👀🦴
 
 JavaScriptのコースを受講して、注意事項をまとめる。
 
@@ -561,3 +561,6 @@ console.log(Object.values(person));
 // key&valueが配列で一覧：[[key, value],[key, value],[key, value]...]
 console.log(Object.entries(person));
 ```
+
+
+

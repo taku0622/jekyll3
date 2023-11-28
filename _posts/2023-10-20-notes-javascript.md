@@ -538,3 +538,6 @@ console.log(person[3.1]);       // 3.1
 console.log(person['3.1']);     // 3.1
 console.log(person[interests]); // ['music', 'travel']
 ```
+
+### お便利関数
+

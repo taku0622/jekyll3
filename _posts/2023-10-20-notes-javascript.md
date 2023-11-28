@@ -505,3 +505,36 @@ console.log(factorial(0)); // 1
 // 省略
 let factorial2 = (n) => n === 0 ? 1 : n * factorial2(n - 1);
 ```
+
+## Object
+
+### key
+
+すべてのオブジェクトのキーは文字列で(内部的に)管理されている。
+
+```js
+const interests = 'interests';
+const person = {
+  name: 'John',
+  age: 30,
+  greeting: () => hello,
+  const: 'const',                     // 予約語
+  'current city': 'Tokyo',            // 文字列
+  3: 3,                               // 数値
+  3.1: 3.1,                           // 小数
+  '-4': -4,                           // 負は文字列のみ
+  [interests]: ['music', 'travel'],   // 変数
+};
+console.log(person.name);       // John
+console.log(person['name']);    // John
+console.log(person.greeting);   // hello
+console.log(person['greeting']);// hello
+console.log(person.const);      // const
+console.log(person['const']);   // const
+console.log(person['current city']); // Tokyo
+console.log(person['3']);       // 3
+console.log(person[3]);         // 3
+console.log(person[3.1]);       // 3.1
+console.log(person['3.1']);     // 3.1
+console.log(person[interests]); // ['music', 'travel']
+```

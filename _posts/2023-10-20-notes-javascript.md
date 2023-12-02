@@ -841,3 +841,18 @@ const car = {
   }
 }
 ```
+
+### getter
+
+関数をプロパティのようにして扱う。
+
+```js
+const pastaCalculator = {
+  servingSize: 60,
+  member: 4,
+  get total() {
+    return this.servingSize * this.member;
+  },
+};
+console.log(pastaCalculator.total); // 240
+```

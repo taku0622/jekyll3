@@ -593,3 +593,21 @@ const coffee = {
 console.log(coffee);
 ```
 
+### スプレット構文
+
+オブジェクトは===でつなげるとアドレスを共有する参照型だが、
+以下のコードではオブジェクトをコピーして別アドレスに保存する。
+
+```js
+const name = 'Espresso';
+const size = 350;
+const coffee = {
+  name,
+  size,
+};
+const coffee2 = {
+  ...coffee,        // スプレット構文：オブジェクト自体をコピー
+  name: 'Latte',    // 後に書けば上書き
+};
+console.log(coffee2); // {name: 'Latte', size: 350}
+```

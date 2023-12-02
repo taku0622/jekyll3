@@ -770,3 +770,14 @@ const book = {
 console.log('title' in book); // ture
 if (book.title !== undefined) console.log(true); // この挙動とほとんど一緒
 ```
+
+### オプショナルチェインニング
+
+```js
+const book = null;
+// bookがnull, undefinedなら、undefined
+// bookがあれば、値を返す 
+console.log(book?.title); // undefined
+console.log(book?.()); // 関数オブジェクト：undefined
+console.log(book?.['title']); // []の参照：undefined
+```

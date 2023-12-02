@@ -827,3 +827,17 @@ sayThis = sayThis.bind({ hello: 'hello' }, 1, 2);
 sayThis();  // {hello: 'hello'} 1 2
 ```
 
+### メソッドの省略化
+
+メソッドでは、thisを使いやすいようにアロー関数は使わないようにする。
+
+ただ、毎回functionを書くのは冗長化してしまうため、以下の記載方法がある。
+
+```js
+const car = {
+  color: 'red',
+  changeColor(color) { // プロパティを書かずにメソッド名から書く
+    this.color = color;
+  }
+}
+```

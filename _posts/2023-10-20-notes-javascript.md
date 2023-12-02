@@ -842,7 +842,7 @@ const car = {
 }
 ```
 
-### getter
+### getter & setter
 
 関数をプロパティのようにして扱う。
 
@@ -855,4 +855,19 @@ const pastaCalculator = {
   },
 };
 console.log(pastaCalculator.total); // 240
+```
+
+```js
+const pastaCalculator = {
+  servingSize: 60,
+  member: 4,
+  get total() {
+    return this.servingSize * this.member;
+  },
+  set total(newValue) {
+    this.member = newValue / this.servingSize;
+  },
+};
+pastaCalculator.total = 600;
+console.log(pastaCalculator.member); // 10
 ```

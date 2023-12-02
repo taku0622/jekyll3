@@ -637,3 +637,20 @@ const coffee2 = {
 coffee2.nutritions.calories = 180;
 console.log(coffee); // 値が上書きされない
 ```
+
+### Object.assign
+
+オブジェクトのマージ
+
+```js
+const o1 = { a: 1 };
+const o2 = { b: 2 };
+Object.assign(o1, o2);  // o1に結合される
+console.log(o1);        // {a: 1, b: 2}
+```
+
+また以下のように書くとスプレット構文と同じ挙動になる。
+
+```js
+const newCoffee = Object.assign({}, coffee);
+```

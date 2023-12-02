@@ -788,3 +788,16 @@ console.log(book?.['title']); // []の参照：undefined
 
 - 無名関数内でthisを使用した場合、グローバルオブジェクトが呼ばれる。ただし、**use strict** 使用時はundefinedになる。
 
+- メソッドで使用した場合、メソッドのオブジェクトが呼ばれる。
+
+```js
+const car = {
+  color: 'red',
+  changeColor: function (color) {
+    this.color = color;
+  }
+}
+car.changeColor('white');
+console.log(car.color);
+```
+

@@ -781,3 +781,10 @@ console.log(book?.title); // undefined
 console.log(book?.()); // 関数オブジェクト：undefined
 console.log(book?.['title']); // []の参照：undefined
 ```
+
+### this
+
+- 一番浅いレキシカル環境でthisを使用した場合、グローバルオブジェクトが呼ばれる。
+
+- 無名関数内でthisを使用した場合、グローバルオブジェクトが呼ばれる。ただし、**use strict** 使用時はundefinedになる。
+

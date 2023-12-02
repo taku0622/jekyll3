@@ -784,6 +784,8 @@ console.log(book?.['title']); // []の参照：undefined
 
 ### this
 
+値を自動で割り当てる。
+
 - 一番浅いレキシカル環境でthisを使用した場合、グローバルオブジェクトが呼ばれる。
 
 - 無名関数内でthisを使用した場合、グローバルオブジェクトが呼ばれる。ただし、**use strict** 使用時はundefinedになる。
@@ -799,5 +801,29 @@ const car = {
 }
 car.changeColor('white');
 console.log(car.color);
+```
+
+### apply & call
+
+thisの内容を強制的に割り当てる。ただし、アロー関数では使えない。
+
+```js
+sayThis = function (a, b) {
+  console.log(this, a, b);
+}
+sayThis.call({ hello: 'hello' }, 1, 2);    // {hello: 'hello'} 1 2
+sayThis.apply({ hello: 'hello' }, [1, 2]); // {hello: 'hello'} 1 2
+```
+
+### bind
+
+thisの内容を強制的に縛る(call, applyよりも強い)。ただし、アロー関数では使えない。
+
+```js
+sayThis = function (a, b) {
+  console.log(this, a, b);
+};
+sayThis = sayThis.bind({ hello: 'hello' }, 1, 2);
+sayThis();  // {hello: 'hello'} 1 2
 ```
 

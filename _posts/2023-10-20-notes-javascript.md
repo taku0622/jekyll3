@@ -836,7 +836,7 @@ sayThis();  // {hello: 'hello'} 1 2
 ```js
 const car = {
   color: 'red',
-  changeColor(color) { // プロパティを書かずにメソッド名から書く
+  changeColor(color) { // キーを書かずにメソッド名から書く
     this.color = color;
   }
 }

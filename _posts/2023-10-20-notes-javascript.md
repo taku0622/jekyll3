@@ -662,7 +662,70 @@ const book = {
   title: 'JavaScriptBook',
   price: 9.99
 }
-// const title = book.title; // 通常の代入
-const { title } = book;      // 分割代入：挙動は一緒
-console.log(title);          // JavaScriptBook
+// const title = book.title;      // 通常の代入
+// const price = book.price
+const { title, price } = book;    // 分割代入：挙動は一緒
+console.log(title, price);        // JavaScriptBook 9.99
+```
+
+応用1：別名をつける
+
+```js
+const book = {
+  title: 'JavaScriptBook',
+  price: 9.99
+}
+const { title: bookTitle } = book; 
+console.log(bookTitle);  // JavaScriptBook
+```
+
+応用2：オブジェクトのオブジェクト
+
+```js
+const book = {
+  title: 'JavaScriptBook',
+  price: 9.99,
+  auther: {
+    first: 'Michael',
+    last: 'Jordan'
+  },
+}
+const { title, auther: { last } } = book;
+console.log(last);  // Jordan
+```
+
+応用3：デフォルト値
+
+```js
+const book = {
+  title: 'JavaScriptBook',
+  price: 9.99,
+  auther: {
+    first: 'Michael',
+    last: 'Jordan'
+  },
+}
+const { title, auther: { last }, publisher = 'NBA' } = book;
+console.log(publisher);  // NBA
+```
+
+応用4：取得してない値をオブジェクトで取得
+
+```js
+const book = {
+  title: 'JavaScriptBook',
+  price: 9.99,
+  auther: {
+    first: 'Michael',
+    last: 'Jordan'
+  },
+  isbn: 1234567890,
+}
+const {
+  title,
+  auther: { last },
+  publisher = 'NBA',
+  ...etc
+} = book;
+console.log(etc);  // {price: 9.99, isbn: 1234567890}
 ```

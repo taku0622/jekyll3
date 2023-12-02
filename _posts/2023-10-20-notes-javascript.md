@@ -611,3 +611,29 @@ const coffee2 = {
 };
 console.log(coffee2); // {name: 'Latte', size: 350}
 ```
+
+また、シャロ―コピー(浅いコピー)であり、オブジェクトの中にオブジェクトがある場合、浅いオブジェクトしかスプレット構文の対象ではない。
+
+対策
+
+```js
+const name = 'Espresso';
+const size = 350;
+const coffee = {
+  name,
+  size,
+  nutritions: {
+    calories: 5,
+    suger: 0,
+  }
+};
+const coffee2 = {
+  ...coffee,
+  name: 'Latte',
+  nutritions: {
+    ...coffee.nutritions
+  },
+};
+coffee2.nutritions.calories = 180;
+console.log(coffee); // 値が上書きされない
+```

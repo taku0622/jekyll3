@@ -654,3 +654,15 @@ console.log(o1);        // {a: 1, b: 2}
 ```js
 const newCoffee = Object.assign({}, coffee);
 ```
+
+### 分割代入
+
+```js
+const book = {
+  title: 'JavaScriptBook',
+  price: 9.99
+}
+// const title = book.title; // 通常の代入
+const { title } = book;      // 分割代入：挙動は一緒
+console.log(title);          // JavaScriptBook
+```

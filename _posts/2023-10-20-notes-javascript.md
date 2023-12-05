@@ -918,9 +918,21 @@ Object.defineProperty(pastaCalculator, 'total', {
 });
 ```
 
+### Objectメソッド
 
+- Object.preventExtensions(pastaCalculator)：プロパティの拡張をさせないようにする。
 
+- Object.seal(pastaCalculator)：プロパティの拡張をさせないようにする。
+　※preventExtensionsよりも強くDeleteもできなくなる。definePropertyでも変更できない。
 
+- Object.isExtensible(pastaCalculator)：拡張できるか返す。
+
+- Object.isSealed(pastaCalculator)：拡張・削除できるか返す。
+
+- Object.freeze(pastaCalculator)：writableによる値の書き換えもできなくする。
+　※sealよりも強くwritableもfalseにする。
+
+- Object.isFrozen(pastaCalculator)：≒freezeであるか返す。
 
 
 

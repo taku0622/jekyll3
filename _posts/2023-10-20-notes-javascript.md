@@ -897,9 +897,26 @@ enumerable：forループやObject.keysなどでキーとして扱われなく�
 
 configurable：falseにすると、value,writable,enumrableのdefinePropertyとdeleteを使用できなくなる。
 
-
 オブジェクトとして定義したものはdefinePropertyは全てtrueになる。
 
+definePropertyを使ったgetter, setterの追加
+
+```js
+const pastaCalculator = {
+  servingSize: 60,
+  member: 4,
+};
+Object.defineProperty(pastaCalculator, 'total', {
+  configurable: true,
+  enumerable: true,
+  get() {
+    return this.servingSize * this.member;
+  },
+  set(newValue) {
+    this.member = newValue / this.servingSize;
+  },
+});
+```
 
 
 

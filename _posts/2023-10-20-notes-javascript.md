@@ -871,3 +871,8 @@ const pastaCalculator = {
 pastaCalculator.total = 600;
 console.log(pastaCalculator.member); // 10
 ```
+
+### PropetyDescriptor
+
+既存のオブジェクトに後からgetterやsetterなどを追加できる。
+

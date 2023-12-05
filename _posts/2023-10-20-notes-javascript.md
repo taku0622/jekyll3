@@ -872,7 +872,22 @@ pastaCalculator.total = 600;
 console.log(pastaCalculator.member); // 10
 ```
 
-### PropetyDescriptor
+### PropertyDescriptor
 
 既存のオブジェクトに後からgetterやsetterなどを追加できる。
 
+前提として、プロパティにはキーと、バリューの他に3つ属性(Define Property)で定義してある。
+
+```js
+const pastaCalculator = {
+  servingSize: 60,
+  member: 4,
+};
+console.log(Object.getOwnPropertyDescriptor(pastaCalculator, 'servingSize'));
+// {value: 60, writable: true, enumerable: true, configurable: true}
+// define propertyのvalue変更
+Object.defineProperty(pastaCalculator, 'servingSize', { value: 30 });
+console.log(Object.getOwnPropertyDescriptor(pastaCalculator, 'servingSize'));
+// {value: 30, writable: true, enumerable: true, configurable: true}
+
+```

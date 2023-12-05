@@ -818,6 +818,7 @@ sayThis.apply({ hello: 'hello' }, [1, 2]); // {hello: 'hello'} 1 2
 ### bind
 
 thisの内容を強制的に縛る(call, applyよりも強い)。ただし、アロー関数では使えない。
+新しい関数オブジェクトを作り出しているので変数に代入して使う。
 
 ```js
 sayThis = function (a, b) {

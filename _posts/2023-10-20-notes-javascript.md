@@ -889,5 +889,19 @@ console.log(Object.getOwnPropertyDescriptor(pastaCalculator, 'servingSize'));
 Object.defineProperty(pastaCalculator, 'servingSize', { value: 30 });
 console.log(Object.getOwnPropertyDescriptor(pastaCalculator, 'servingSize'));
 // {value: 30, writable: true, enumerable: true, configurable: true}
-
 ```
+
+writable：falseにすると、difineProperty以外での変更ができなくなる。
+
+enumerable：forループやObject.keysなどでキーとして扱われなくなる。
+
+configurable：falseにすると、value,writable,enumrableのdefinePropertyとdeleteを使用できなくなる。
+
+
+
+
+
+
+
+
+

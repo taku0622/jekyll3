@@ -898,6 +898,8 @@ enumerable：forループやObject.keysなどでキーとして扱われなく�
 configurable：falseにすると、value,writable,enumrableのdefinePropertyとdeleteを使用できなくなる。
 
 
+オブジェクトとして定義したものはdefinePropertyは全てtrueになる。
+
 
 
 

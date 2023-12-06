@@ -936,4 +936,14 @@ Object.defineProperty(pastaCalculator, 'total', {
 - Object.isFrozen(pastaCalculator)：≒freezeであるか返す。
 
 
+## prototype & class
+
+### prototype chain
+
+すべてのオブジェクトは内部的に ***prototype property** をもっている。
+
+オブジェクトに明示的にないプロパティを呼び出したとき、prototypeのchainの繋がれたオブジェクトまで確認する。
+
+
+### prototypeの操作
 

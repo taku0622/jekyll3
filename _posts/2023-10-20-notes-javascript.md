@@ -944,6 +944,54 @@ Object.defineProperty(pastaCalculator, 'total', {
 
 オブジェクトに明示的にないプロパティを呼び出したとき、prototypeのchainの繋がれたオブジェクトまで確認する。
 
+イメージ
+
+```
+const obj = {
+  a: 1,
+  b: 2,
+  [[Prototype]]: p1,
+}
+const p1 = {
+  c: 3,
+  [[Prototype]]: p2,
+}
+const p2 = {
+  d: 4,
+  [[Prototype]]: null,
+}
+obj.a // 1
+obj.b // 2
+obj.c // 3
+obj.d // 4
+obj.e // undefined
+```
 
 ### prototypeの操作
 
+prototypeの参照
+
+```js
+const obj = {
+  a: 1,
+  b: 2,
+};
+console.log(obj.__proto__);
+//{constructor: ƒ, __defineGetter__: ƒ, __defineSetter__: ƒ, hasOwnProperty: ƒ, __lookupGetter__: ƒ, …}
+```
+
+prototypeの4つの更新方法
+
+方法1
+
+```js
+const obj = {
+  a: 1,
+  b: 2,
+};
+obj.__proto__ = {
+  c: 3,
+};
+console.log(obj.__proto__);
+// {c: 3}
+```

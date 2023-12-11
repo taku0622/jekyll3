@@ -1061,3 +1061,36 @@ console.log(Object.keys(obj)); // a b
 // ptopertyTypeまで参照しない。
 ```
 
+### class
+
+似たようなオブジェクトを生成するための設計図。
+
+ファクトリ関数
+
+```js
+const UserFactory = (name, age) => {
+  return {
+    name,
+    age,
+    greeting() { },
+  };
+};
+const user1 = UserFactory('Mike', 30);  // インスタンス
+const user2 = UserFactory('Jiro', 32);  // インスタンス
+const user3 = UserFactory('Tom', 33); // インスタンス
+```
+
+コンストラクタ関数
+
+```js
+const UserConstructor = function (name, age) {
+  // this = {} 暗黙的に
+  this.name = name;
+  this.age = age;
+  this.greeting = function () { };
+  // return this; 暗黙的に
+};
+const user1 = new UserConstructor('Mike', 30);  // インスタンス
+const user2 = new UserConstructor('Jiro', 32);  // インスタンス
+const user3 = new UserConstructor('Tom', 33);  // インスタンス
+```

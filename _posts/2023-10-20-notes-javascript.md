@@ -139,17 +139,32 @@ const coffee = {
 };
 for (const key in coffee) {
   console.log(coffee[key]);
-}
+};
 ```
 
 for-in文はオブジェクトに使う。
+
+ただし、後述するprototypeまで参照してしまうため、
+for-of文を使用する方が良い。
+
+```js
+const coffee = {
+  name: 'Caffe latte',
+  size: 350,
+  isHot: true,
+};
+for (const key of Object.keys(coffee)) {
+  console.log(coffee[key]);
+};
+```
+
 また、for-of同様、配列にも使える。
 
 ```js
 const fruits = ['apple', 'banana', 'grape', 'orange', 'mango'];
 for (const key in fruits) {
   console.log(fruits[key]);
-}
+};
 ```
 
 ### label文
@@ -1026,7 +1041,7 @@ console.log(obj.__proto__);
 
 ※方法1は後方互換性で残っており、方法2は処理に時間がかかるため。
 
-for in を使った表示
+for-in を使った表示
 
 ```js
 const obj = Object.create({ c: 3, 1: 4 });
@@ -1035,5 +1050,14 @@ obj.b = 2;
 for (const key in obj) {
   console.log(key); // a b 1 c
 }
+```
+
+```js
+const obj = Object.create({ c: 3, 1: 4 });
+obj.a = 1;
+obj.b = 2;
+console.log(Object.keys(obj)); // a b
+// keys, values, entries, getOwnPropertyNames などは
+// ptopertyTypeまで参照しない。
 ```
 

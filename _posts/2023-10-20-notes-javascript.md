@@ -1011,3 +1011,14 @@ Object.setPrototypeOf(obj, {
 console.log(Object.getPrototypeOf(obj));
 // {c: 3}
 ```
+
+方法3
+
+```js
+const obj = Object.create({ c: 3 });
+obj.a = 1;
+obj.b = 2;
+console.log(obj.__proto__);
+// {c: 3}
+```
+

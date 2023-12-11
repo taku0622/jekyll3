@@ -1084,13 +1084,16 @@ const user3 = UserFactory('Tom', 33); // インスタンス
 
 ```js
 const UserConstructor = function (name, age) {
-  // this = {} 暗黙的に
+  // this = Object.create(UserConstructor.protptype) 暗黙的に
   this.name = name;
   this.age = age;
-  this.greeting = function () { };
   // return this; 暗黙的に
+};
+UserConstructor.prototype.greeting = function () {
+  return `Hi! This is ${this.name}. I am ${this.age} years old`;
 };
 const user1 = new UserConstructor('Mike', 30);  // インスタンス
 const user2 = new UserConstructor('Jiro', 32);  // インスタンス
 const user3 = new UserConstructor('Tom', 33);  // インスタンス
+console.log(user1.greeting());  // Hi! This is Mike. I am 30 years old
 ```

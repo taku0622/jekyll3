@@ -978,6 +978,8 @@ const obj = {
 };
 console.log(obj.__proto__);
 //{constructor: ƒ, __defineGetter__: ƒ, __defineSetter__: ƒ, hasOwnProperty: ƒ, __lookupGetter__: ƒ, …}
+// 以下も同様
+console.log(Object.getPrototypeOf(obj));
 ```
 
 prototypeの4つの更新方法
@@ -995,3 +997,5 @@ obj.__proto__ = {
 console.log(obj.__proto__);
 // {c: 3}
 ```
+
+方法2

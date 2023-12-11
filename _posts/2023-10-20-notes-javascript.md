@@ -1025,3 +1025,15 @@ console.log(obj.__proto__);
 なるべく方法3を使用する。
 
 ※方法1は後方互換性で残っており、方法2は処理に時間がかかるため。
+
+for in を使った表示
+
+```js
+const obj = Object.create({ c: 3, 1: 4 });
+obj.a = 1;
+obj.b = 2;
+for (const key in obj) {
+  console.log(key); // a b 1 c
+}
+```
+

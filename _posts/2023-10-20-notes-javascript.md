@@ -982,7 +982,7 @@ console.log(obj.__proto__);
 console.log(Object.getPrototypeOf(obj));
 ```
 
-prototypeの4つの更新方法
+prototypeの3つの更新方法
 
 方法1
 
@@ -999,3 +999,15 @@ console.log(obj.__proto__);
 ```
 
 方法2
+
+```js
+const obj = {
+  a: 1,
+  b: 2,
+};
+Object.setPrototypeOf(obj, {
+  c: 3,
+});
+console.log(Object.getPrototypeOf(obj));
+// {c: 3}
+```

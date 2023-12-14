@@ -1116,3 +1116,8 @@ console.log(o.hasOwnProperty('hello')); // false：prototypeまで確認しな�
 console.log(Object.prototype.hasOwnProperty.call(o, 'hello')) // false：上の書き換え
 console.log('hello' in o);              // true：prototypeまで確認する
 ```
+
+### クラス構文
+
+コンストラクタ関数は、分かりづらいためES2015でクラス構文が追加された。
+

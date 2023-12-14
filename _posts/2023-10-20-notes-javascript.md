@@ -1101,3 +1101,17 @@ console.log(user1.greeting());  // Hi! This is Mike. I am 30 years old
 ### hasOwnProperty
 
 オブジェクトにそのプロパティが存在するかどうかを判断する。
+
+```js
+
+let o = { // プロパティ「a: 1」 追加
+  a: 1,
+};
+Object.prototype.hello = 'hello'　// prototype「hello: 'hello'」追加
+
+console.log(o.hasOwnProperty('a')); // true
+console.log('a' in o);              // true
+
+console.log(o.hasOwnProperty('hello')); // false：prototypeまで確認しない：ownはprototypeまで確認しない
+console.log('hello' in o);              // true：prototypeまで確認する
+```

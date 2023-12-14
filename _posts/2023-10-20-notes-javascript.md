@@ -1097,3 +1097,7 @@ const user2 = new UserConstructor('Jiro', 32);  // インスタンス
 const user3 = new UserConstructor('Tom', 33);  // インスタンス
 console.log(user1.greeting());  // Hi! This is Mike. I am 30 years old
 ```
+
+### hasOwnProperty
+
+オブジェクトにそのプロパティが存在するかどうかを判断する。

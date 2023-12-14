@@ -1113,5 +1113,6 @@ console.log(o.hasOwnProperty('a')); // true
 console.log('a' in o);              // true
 
 console.log(o.hasOwnProperty('hello')); // false：prototypeまで確認しない：ownはprototypeまで確認しない
+console.log(Object.prototype.hasOwnProperty.call(o, 'hello')) // false：上の書き換え
 console.log('hello' in o);              // true：prototypeまで確認する
 ```

@@ -1135,3 +1135,20 @@ class User { // 省略記法のメソッドのみ書ける
 const user1 = new User('Taku', 30);
 console.log(user1);     // User {name: 'Taku', age: 30}
 ```
+
+### クラス構文のgetter&setter
+
+クラス内のメソッド内に **get, set** をつけるだけ。
+
+```js
+class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  get greeting() { } // getter
+  set post(newValue) { } // setter
+};
+const user1 = new User('Taku', 30);
+console.log(user1);
+```

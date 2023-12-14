@@ -1121,3 +1121,17 @@ console.log('hello' in o);              // true：prototypeまで確認する
 
 コンストラクタ関数は、分かりづらいためES2015でクラス構文が追加された。
 
+クラスはコンストラクタ関数の上位互換。
+
+```js
+class User { // 省略記法のメソッドのみ書ける
+  constructor(name, age) { // インスタンス作成時に真っ先に呼び出される特殊メソッド
+    this.name = name;
+    this.age = age;
+  }
+  greeting() { }
+  post() { }
+};
+const user1 = new User('Taku', 30);
+console.log(user1);     // User {name: 'Taku', age: 30}
+```

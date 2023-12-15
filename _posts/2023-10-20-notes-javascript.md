@@ -1218,3 +1218,5 @@ class User {
 const user1 = new User('Taku', 25);
 console.log(user1.age);
 ```
+
+### クラスの継承

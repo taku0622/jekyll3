@@ -1152,3 +1152,22 @@ class User {
 const user1 = new User('Taku', 30);
 console.log(user1);
 ```
+
+### staticメソッド
+
+Javaと一緒。クラスメソッド。
+
+ユーザに関する抽象的なメソッド。
+
+```js
+class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  static greeting() {
+    console.log('Hello');
+  } // クラスメソッド
+};
+console.log(User.greeting()); // Hello
+```

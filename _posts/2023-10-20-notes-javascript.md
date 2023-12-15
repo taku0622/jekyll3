@@ -1178,7 +1178,7 @@ console.log(User.greeting()); // Hello
 
 ```js
 class User {
-  id = 1993321;   // // フィールド
+  id = 1993321;       // フィールド
   birthday = '1990/01//01'; // フィールド
   static classId = 0;       // staticもいける
   constructor(name, age) {
@@ -1191,4 +1191,28 @@ const user1 = new User('Taku', 25)
 console.log(user1.id);       // 1993321
 console.log(user1.birthday); // 1990/01//01
 console.log(User.classId);   // 0
+```
+
+### プライベートフィールド
+
+クラス内でしか使用できない値。
+
+クラス外から確認する場合はgetterを使う。
+
+```js
+class User {
+  id = 1993321;
+  birthday = '1990/01//01';
+  #age = 0;
+  static classId = 0;
+  constructor(name, age) {
+    this.name = name;
+    this.#age = age;
+  }
+  get age() {
+    return this.#age;
+  }
+};
+const user1 = new User('Taku', 25);
+console.log(user1.age);
 ```

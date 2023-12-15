@@ -1220,3 +1220,32 @@ console.log(user1.age);
 ```
 
 ### クラスの継承
+
+クラスを引き継ぐ。
+
+親クラス：スーパークラス。
+
+子クラス：サブクラス、チャイルドクラス。
+
+子クラスのコンストラクタは省略可。暗黙的に親クラスのコンストラクタが定義される。
+コンストラクタを拡張することができる。
+
+```js
+class Animal {
+  age = 0;
+  constructor(age) {
+    this.age = age;
+  }
+  eat() { }
+}
+class Bird extends Animal {
+  name = 'pi';
+  constructor(age, name) {
+    super(age);
+    this.name = name;
+  }
+  fly() { }
+}
+const bird = new Bird(3, 'peaker');
+console.log(bird);    // Bird {age: 3, name: 'peaker'}
+```

@@ -1165,9 +1165,9 @@ class User {
     this.name = name;
     this.age = age;
   }
-  static greeting() {
+  static greeting() { // クラスメソッド
     console.log('Hello');
-  } // クラスメソッド
+  }
 };
 console.log(User.greeting()); // Hello
 ```

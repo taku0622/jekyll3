@@ -1199,6 +1199,8 @@ console.log(User.classId);   // 0
 
 クラス外から確認する場合はgetterを使う。
 
+メソッドやクラスフィールドなどにも使用することができる。
+
 ```js
 class User {
   id = 1993321;

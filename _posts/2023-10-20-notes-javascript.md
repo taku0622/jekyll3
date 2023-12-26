@@ -1277,5 +1277,5 @@ class Bird extends Animal {
   }
 }
 const bird = new Bird(3, 'peaker');
-console.log(bird.eat()); // eat from Animal \n eat from Bird
+bird.eat(); // eat from Animal \n eat from Bird
 ```

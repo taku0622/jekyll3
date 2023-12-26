@@ -1249,3 +1249,33 @@ class Bird extends Animal {
 const bird = new Bird(3, 'peaker');
 console.log(bird);    // Bird {age: 3, name: 'peaker'}
 ```
+
+### super.
+
+親クラスのメソッドを引き継ぐ。拡張する。
+
+```js
+class Animal {
+  age = 0;
+  constructor(age) {
+    this.age = age;
+  }
+  eat() {
+    console.log("eat from Animal");
+  }
+}
+class Bird extends Animal {
+  name = 'bird';
+  constructor(age, name) {
+    super(age);
+    this.name = name;
+  }
+  fly() { }
+  eat() {
+    super.eat();
+    console.log("eat from Bird");
+  }
+}
+const bird = new Bird(3, 'peaker');
+console.log(bird.eat()); // eat from Animal \n eat from Bird
+```

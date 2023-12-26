@@ -1279,3 +1279,42 @@ class Bird extends Animal {
 const bird = new Bird(3, 'peaker');
 bird.eat(); // eat from Animal \n eat from Bird
 ```
+
+### 継承とコンポジション
+
+継承を使わずにクラスのインスタンスを使う。
+
+```js
+class Animal {
+  age = 0;
+  constructor(age) {
+    this.age = age;
+  }
+  eat() {
+    console.log("eat from Animal");
+  }
+  static foo() {
+    console.log("foo");
+  }
+}
+class Bird {
+  name = 'bird';
+  constructor(age, name) {
+    this.animal = new Animal(age);
+    this.name = name;
+  }
+  static fly() {
+    Animal.foo();
+    console.log("fly");
+  }
+  eat() {
+    this.animal.eat();
+    console.log("eat from Bird");
+  }
+}
+const bird = new Bird(3, 'peaker');
+console.log(bird.animal.age); // 3
+bird.animal.eat(); // eat from Animal
+bird.eat(); // eat from Animal \n eat from Bird
+Bird.fly(); // foo \n fly
+```

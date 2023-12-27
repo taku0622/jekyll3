@@ -1327,3 +1327,26 @@ bird.eat(); // eat from Animal \n eat from Bird
 Bird.fly(); // foo \n fly
 ```
 
+## 配列
+
+### 配列とオブジェクト
+
+配列に似たオブジェクトを定義する際に、見極め方法はあるのか。
+
+関数isArrayで解決できる。
+
+```js
+let fruits = ['apple', 'banana'];
+let arrayLikeObj = {
+  0: 'apple',
+  1: 'banana',
+  length: 2,
+};
+arrayLikeObj.__proto__ = Array.prototype;
+console.log(typeof fruits); // Object
+console.log(typeof arrayLikeObj); // Object
+console.log(fruits instanceof Array); // true
+console.log(arrayLikeObj instanceof Array); // true
+console.log(Array.isArray(fruits)); // true
+console.log(Array.isArray(arrayLikeObj)); // false
+```

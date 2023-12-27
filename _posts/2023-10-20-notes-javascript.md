@@ -1350,3 +1350,11 @@ console.log(arrayLikeObj instanceof Array); // true
 console.log(Array.isArray(fruits)); // true
 console.log(Array.isArray(arrayLikeObj)); // false
 ```
+
+### 疎な配列、密な配列
+
+空っぽの要素がある(≒deleteで要素を削除)場合、 **疎な配列** という。
+
+要素が順番に埋まっている場合、 **密な配列** という。
+
+

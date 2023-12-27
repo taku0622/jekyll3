@@ -50,6 +50,14 @@ toc:  true
 
 ##  certification🧪
 
+### 2023/09/24 Certified Cloud Practitioner (CLF-C02) ☁
+
+rate/border(%)
+
+739/700
+
+![AWSCCP](./certification/AWSCCP.jpg)
+
 ### 2023/03/21 1Z0-071 Oracle Database SQL 💾
 
 rate/border(%)

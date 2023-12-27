@@ -1371,3 +1371,41 @@ console.log(fruits.length); // 2
 console.log(fruits);  // (2) ['apple', 'banana']
 ```
 
+### 定義、操作
+
+1. ブラケット([])で定義
+
+```js
+let fruits = ['apple', 'banana', 'grape'];
+```
+
+
+2. new Array()で定義
+
+```js
+let fruits = new Array('apple', 'banana', 'grape');
+```
+
+3. Array()で定義
+
+```js
+let fruits = Array('apple', 'banana', 'grape');
+```
+
+4. Array.of()で定義
+
+```js
+let fruits = Array.of('apple', 'banana', 'grape');
+```
+
+操作
+
+```js
+let fruits = ['apple', , 'banana', , 'grape'];
+for (const fruit of fruits) { // undefinedを含める。
+  console.log(fruit); // apple \n undefined \n banana \n undefined \n grape
+}
+for (const key in fruits) { // undefinedを含めない。
+  console.log(fruits[key]); // apple \n banana \n grape
+}
+```

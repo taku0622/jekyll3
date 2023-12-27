@@ -1326,3 +1326,4 @@ bird.animal.eat(); // eat from Animal
 bird.eat(); // eat from Animal \n eat from Bird
 Bird.fly(); // foo \n fly
 ```
+

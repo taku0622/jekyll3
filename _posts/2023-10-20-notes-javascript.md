@@ -1422,3 +1422,18 @@ let nums = [1, 2, 3, 4, 5];
 sum(nums); // [[1, 2, 3, 4, 5]] 要素1つになってしまう
 sum(...nums); // (5) [1, 2, 3, 4, 5] 展開できる
 ```
+
+### 分割代入
+
+```js
+const arr = ['taku', 25, 'man', ['music', 'travel']];
+let [name, age] = arr;
+console.log(name, age); // taku 25
+
+let [, , gender] = arr;
+console.log(gender); // man
+
+let [, , , [, hobby2]] = arr;
+console.log(hobby2); // travel
+```
+

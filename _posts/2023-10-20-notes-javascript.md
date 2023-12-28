@@ -1453,3 +1453,14 @@ items.shift();        // 左側を1つ削除
 console.log(items);   // (4) [0, 1, 2, 3]
 ```
 
+### オブジェクトを配列に
+
+```js
+let arrayLikeObj = {
+  0: 'apple',
+  1: 'banana',
+  length: 2,
+};
+const array = Array.from(arrayLikeObj);
+console.log(array);
+```

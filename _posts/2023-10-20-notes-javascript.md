@@ -1371,7 +1371,7 @@ console.log(fruits.length); // 2
 console.log(fruits);  // (2) ['apple', 'banana']
 ```
 
-### 定義、操作
+### 定義、ループ
 
 1. ブラケット([])で定義
 
@@ -1398,7 +1398,7 @@ let fruits = Array('apple', 'banana', 'grape');
 let fruits = Array.of('apple', 'banana', 'grape');
 ```
 
-操作
+ループ
 
 ```js
 let fruits = ['apple', , 'banana', , 'grape'];

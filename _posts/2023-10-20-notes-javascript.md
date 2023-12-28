@@ -1437,3 +1437,19 @@ let [, , , [, hobby2]] = arr;
 console.log(hobby2); // travel
 ```
 
+### 配列を変更するメソッド
+
+```js
+let items = [0, 1, 2];
+items.push(3, 4);     // 右側に増やす
+console.log(items);   // (5) [0, 1, 2, 3, 4]
+items.pop();          // 右側を1つ削除
+// console.log(items.pop()); 削除した値を返す
+console.log(items);   // (4) [0, 1, 2, 3]
+items.unshift(-1);    // 左側に増やす
+console.log(items);   // (5) [-1, 0, 1, 2, 3]
+items.shift();        // 左側を1つ削除
+// console.log(items.shift()); 削除した値を返す
+console.log(items);   // (4) [0, 1, 2, 3]
+```
+

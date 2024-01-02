@@ -1478,5 +1478,10 @@ console.log(items); // [0, 5, 6, 2]
 
 ### fill()
 
-
+```js
+items = [0, 1, 2, 4, 5];
+items.fill(9);
+// すべての要素を9で埋める。
+console.log(items); // [9, 9, 9, 9, 9]
+```
 

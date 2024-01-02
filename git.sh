@@ -2,4 +2,4 @@ git add -A
 
 git commit -m 'done'
 
-echo yes | git push
+echo 'yes' | git push

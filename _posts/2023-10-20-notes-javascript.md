@@ -1493,7 +1493,7 @@ console.log(items); // [0, 2, 2, 2, 2]
 
 ```js
 items = [0, 1, 2, 4, 5];
-items.fill(2, 1, 3); // 1から3番目を2で埋める
+items.fill(2, 1, 3); // 1から3番目未満を2で埋める
 console.log(items); // [0, 2, 2, 4, 5]
 ```
 

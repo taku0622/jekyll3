@@ -1464,3 +1464,14 @@ let arrayLikeObj = {
 const array = Array.from(arrayLikeObj);
 console.log(array);
 ```
+
+### splice()
+
+配列の任意の要素を削除したり、追加したりする。
+
+```js
+items = [0, 1, 2];
+items.splice(1, 2); // 1番目から2つの要素削除
+console.log(items); // [0]
+```
+

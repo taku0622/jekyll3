@@ -1476,3 +1476,7 @@ items.splice(1, 1, 5, 6);
 console.log(items); // [0, 5, 6, 2]
 ```
 
+### fill()
+
+
+

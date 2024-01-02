@@ -1471,7 +1471,8 @@ console.log(array);
 
 ```js
 items = [0, 1, 2];
-items.splice(1, 2); // 1番目から2つの要素削除
-console.log(items); // [0]
+items.splice(1, 1, 5, 6);
+// 1番目から1つを5に置き換える。6も追加する。
+console.log(items); // [0, 5, 6, 2]
 ```
 

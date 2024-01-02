@@ -4,4 +4,4 @@ git commit -m 'done'
 
 git push
 
-yes
+yes yes

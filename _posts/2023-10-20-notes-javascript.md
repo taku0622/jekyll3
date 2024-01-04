@@ -1565,6 +1565,18 @@ console.log(result);
 // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
+### join()
 
+配列から文字列に変換する。
+
+```js
+items = ['a', 'b', 'c'];
+result = items.join();
+console.log(result); // a,b,c
+result = items.join(''); // 空文字でつなげる
+console.log(result); // abc
+result = items.join('-'); // ハイフンでつなげる
+console.log(result); // a-b-c
+```
 
 

@@ -1671,4 +1671,16 @@ console.log(result); // 1
 
 ### every(), some()
 
+全要素を参照して、boolean値を返す。
 
+```js
+items = [1, 2, 3];
+result = items.every((item) => {
+  return item < 5 // 全要素がtrueの場合、trueを返す。
+});
+console.log(result); // true
+result = items.some((item) => {
+  return item === 3 // 全要素のうち1つでもtrueがあれば、trueを返す。
+});
+console.log(result); // true
+```

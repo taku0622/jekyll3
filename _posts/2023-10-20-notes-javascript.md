@@ -1579,4 +1579,27 @@ result = items.join('-'); // ハイフンでつなげる
 console.log(result); // a-b-c
 ```
 
+### 要素検索
+
+3つのメソッドを紹介する。どれも第2引数対応で、検索のスタート位置を設定できる。
+
+```js
+items = ['apple', 'banana', 'grape', 'banana'];
+result = items.indexOf('banana'); // 最初のインデックスを返す。
+console.log(result); // 1
+result = items.indexOf('banana', 2); // 2番目から最初のインデックスを返す。
+console.log(result); // 3
+result = items.indexOf('peach'); // ない場合-1を返す。
+console.log(result); // -1
+result = items.lastIndexOf('banana'); // 後ろから最初のインデックスを返す。
+console.log(result); // 3
+result = items.includes('peach'); // ある場合true、ない場合falseを返す。
+console.log(result); // false
+```
+
+### map()
+
+詳細に配列を変更できる。
+
+
 

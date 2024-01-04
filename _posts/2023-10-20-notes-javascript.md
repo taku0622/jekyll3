@@ -1541,3 +1541,15 @@ items.sort((a, b) => {
 }); // 昇順で並び替える。
 console.log(items); // ['', 0, 2, 3, 5, 10, undefined, 空 × 3]
 ```
+
+## 返り値として新しい配列を作成するメソッド
+
+元の配列に影響しないメソッド。
+
+```js
+items = [0, 1, 2, 3, 4];
+let result = items.slice(2); // 2番目から最後までを切り取る。
+console.log(result); // [2, 3, 4]
+result = items.slice(2, 4); // 2番目から4番目未満を切り取る。
+console.log(result); // [2, 3]
+```

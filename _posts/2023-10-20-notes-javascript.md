@@ -1684,3 +1684,23 @@ result = items.some((item) => {
 });
 console.log(result); // true
 ```
+
+### forEach()
+
+配列をループさせる。
+
+単純に要素を関数に入れるだけで、undefinedを返す。
+
+for of 文と違いはなく、どちらが良いとかない。ただし、どちらかに統一した方が可読性は良い。
+
+```js
+items = ['apple', 'banana', 'grape'];
+let count = 0;
+result = items.forEach((item, index, array) => {
+  count++; // 単純に要素を関数に入れるだけで、undefinedを返す。
+});
+console.log(result); // undefined
+console.log(count);  // 3
+```
+
+

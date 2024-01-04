@@ -782,7 +782,7 @@ const book = {
   },
   isbn: 1234567890,
 };
-console.log('title' in book); // ture
+console.log('title' in book); // true
 if (book.title !== undefined) console.log(true); // この挙動とほとんど一緒
 ```
 
@@ -1654,21 +1654,21 @@ reduceRight関数は右から計算する。
 
 ### find(), findIndex()
 
-tureの場合、ループ終了して要素orインデックスを返す。
+trueの場合、ループ終了して要素orインデックスを返す。
 
 ```js
 items = ['apple', 'banana', 'grape', 'banana'];
 result = items.find((item) => {
-  return item === 'banana'; // tureの場合、ループ終了して要素を返す。なかった場合undefined
+  return item === 'banana'; // trueの場合、ループ終了して要素を返す。なかった場合undefined
 });
 console.log(result); // banana
 
 result = items.findIndex((item) => {
-  return item === 'banana'; // tureの場合、ループ終了して要素のインデックスを返す。なかった場合-1
+  return item === 'banana'; // trueの場合、ループ終了して要素のインデックスを返す。なかった場合-1
 });
 console.log(result); // 1  
 ```
 
-
+### every(), some()
 
 

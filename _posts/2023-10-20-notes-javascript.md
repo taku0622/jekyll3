@@ -1599,7 +1599,13 @@ console.log(result); // false
 
 ### map()
 
-詳細に配列を変更できる。
+各要素を関数を使って更新する。
 
-
+```js
+items = [0, 1, 2];
+result = items.map((item, index, array) => { // 要素、インデックス、配列を参照できる
+  return item * 10;
+});
+console.log(result); // [0, 10, 20] 
+```
 

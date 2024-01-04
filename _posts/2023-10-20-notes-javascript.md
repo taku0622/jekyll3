@@ -1652,7 +1652,23 @@ console.log(result); // 6
 
 reduceRight関数は右から計算する。
 
-### find(), findOut()
+### find(), findIndex()
+
+tureの場合、ループ終了して要素orインデックスを返す。
+
+```js
+items = ['apple', 'banana', 'grape', 'banana'];
+result = items.find((item) => {
+  return item === 'banana'; // tureの場合、ループ終了して要素を返す。なかった場合undefined
+});
+console.log(result); // banana
+
+result = items.findIndex((item) => {
+  return item === 'banana'; // tureの場合、ループ終了して要素のインデックスを返す。なかった場合-1
+});
+console.log(result); // 1  
+```
+
 
 
 

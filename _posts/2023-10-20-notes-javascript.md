@@ -1609,3 +1609,21 @@ result = items.map((item, index, array) => { // 要素、インデックス、�
 console.log(result); // [0, 10, 20] 
 ```
 
+### flat(), flatMap()
+
+ネストした配列を展開(同じ階層)する。
+
+```js
+items = [0, 1, [2]];
+result = items.flat();
+console.log(result); // [0, 1, 2]
+items = [0, 1, [2, [3, [4]]]];
+result = items.flat(3); //引数に深さを入れる。デフォは1
+console.log(result); // [[0, 1, 2, 3, 4]
+
+items = [0, 1, 2];
+result = items.flatMap((item) => [item, item * 10]); // mapしてflatする
+console.log(result); // [0, 0, 1, 10, 2, 20]
+```
+
+### filter()

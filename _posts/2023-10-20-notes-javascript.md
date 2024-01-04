@@ -1649,3 +1649,10 @@ result = items.reduce((previousItem, item) => { // 引数は4つ設定できる�
 }, 0); // itemが0番目の「1」とき、この「0」をpreviousItemとする。 
 console.log(result); // 6
 ```
+
+reduceRight関数は右から計算する。
+
+### find(), findOut()
+
+
+

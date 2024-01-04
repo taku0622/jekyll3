@@ -1703,4 +1703,11 @@ console.log(result); // undefined
 console.log(count);  // 3
 ```
 
+### at()
 
+```js
+items = ['apple', 'banana', 'grape'];
+console.log(items.at(0)); // apple
+console.log(items.at(-1)); // grape
+//items[0]と同じ。加えて「-1」も対応。
+```

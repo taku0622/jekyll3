@@ -1627,3 +1627,13 @@ console.log(result); // [0, 0, 1, 10, 2, 20]
 ```
 
 ### filter()
+
+booleanでフィルタリングする。
+
+```js
+items = [0, 1, 2, 3, 4, 5, 6];
+result = items.filter((item) => {
+  return item > 2 // trueの場合はresultへ、falseは削除
+});
+console.log(result); // [3, 4, 5, 6]
+```

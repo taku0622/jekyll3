@@ -1437,7 +1437,7 @@ let [, , , [, hobby2]] = arr;
 console.log(hobby2); // travel
 ```
 
-### 配列を変更するメソッド
+## 配列を変更するメソッド
 
 ```js
 let items = [0, 1, 2];
@@ -1534,3 +1534,10 @@ console.log(items); // ['', 0, 10, 2, 3, 5, undefined, 空 × 3]
 
 数値の昇順や降順はsort関数の引数に関数を入れて実現する。
 
+```js
+items = [10, , , undefined, "", , 3, 2, 5, 0];
+items.sort((a, b) => {
+  return a - b;
+}); // 昇順で並び替える。
+console.log(items); // ['', 0, 2, 3, 5, 10, undefined, 空 × 3]
+```

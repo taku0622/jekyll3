@@ -1637,3 +1637,15 @@ result = items.filter((item) => {
 });
 console.log(result); // [3, 4, 5, 6]
 ```
+
+### reduce(), reduceRight()
+
+端から計算して1つの値を出す。
+
+```js
+items = [1, 2, 3];
+result = items.reduce((previousItem, item) => { // 引数は4つ設定できる。
+  return previousItem + item // 配列の和を求める。
+}, 0); // itemが0番目の「1」とき、この「0」をpreviousItemとする。 
+console.log(result); // 6
+```

@@ -1793,3 +1793,15 @@ bigInt = 9007199254740991n + 9007199254740991n
 console.log(bigInt); // 18014398509481982n
 // Number型のNumber.MAX_SAFE_INTEGERを超えても計算可能
 ```
+
+### Dateオブジェクト
+
+```js
+let date = new Date();
+console.log(date); // Fri Jan 05 2024 18:14:37 GMT+0900 (日本標準時)
+console.log(date.getTime()); // 1704446145874
+console.log(date.getFullYear()); // 2024
+console.log(date.getMonth()); // 0 ※0始まり(1月)
+console.log(date.getDate()); // 5
+console.log(date.getDay()); // 5 ※0始まり(金曜日)
+```

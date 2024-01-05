@@ -1714,8 +1714,16 @@ console.log(items.at(-1)); // grape
 
 ## 標準ビルトインオブジェクト
 
-### Proxy
+以下のようなもの
 
-オブジェクトの動きを自由に変更する方法。
+```js
+let count = 1.23456;
+let result = count.toFixed(2); // 小数点3桁を四捨五入
+console.log(result); // 1.23
+
+let hello = 'hello';
+result = hello.toUpperCase(); // 大文字に変換
+console.log(result); // HELLO
+```
 
 

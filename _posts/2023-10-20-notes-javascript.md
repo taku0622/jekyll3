@@ -1750,3 +1750,33 @@ console.log(Number.MAX_VALUE); // 1.7976931348623157e+308
 console.log(Number.MAX_SAFE_INTEGER); // 9007199254740991 安全に四則演算ができる最大値
 ```
 
+### Mathオブジェクト
+
+```js
+// floor() 負の方に合わせる
+console.log(Math.floor(3.6)); // 3
+console.log(Math.floor(3.2)); // 3
+console.log(Math.floor(-3.6)); // -4
+console.log(Math.floor(-3.2)); // -4
+
+// trunc() 切り捨て
+console.log(Math.trunc(3.6)); // 3
+console.log(Math.trunc(3.2)); // 3
+console.log(Math.trunc(-3.6)); // -3
+console.log(Math.trunc(-3.2)); // -3
+
+// round() 四捨五入
+console.log(Math.round(3.2)); // 3
+console.log(Math.round(3.5)); // 4
+console.log(Math.round(-3.4)); // -3
+console.log(Math.round(-3.5)); // -3
+
+// random() 0 < 1までの値をランダム出力
+console.log(Math.random()); // 0.13763632157163386
+
+// max() 引数の中の最大値を出力
+console.log(Math.max(3, 5, 12, 8, 4, 5)); // 12
+
+// min() 引数の中の最大値を出力
+console.log(Math.min(3, 5, 12, 8, 4,)); // 3
+```

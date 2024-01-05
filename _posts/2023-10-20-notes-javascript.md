@@ -1780,3 +1780,16 @@ console.log(Math.max(3, 5, 12, 8, 4, 5)); // 12
 // min() 引数の中の最大値を出力
 console.log(Math.min(3, 5, 12, 8, 4,)); // 3
 ```
+
+### Bigint型
+
+```js
+let bigInt = 1234567890n;
+// bigInt = BigInt(123456789); // 他の宣言方法①
+// bigInt = BigInt('123456789'); // 他の宣言方法②
+console.log(typeof bigInt); // bigint
+
+bigInt = 9007199254740991n + 9007199254740991n
+console.log(bigInt); // 18014398509481982n
+// Number型のNumber.MAX_SAFE_INTEGERを超えても計算可能
+```

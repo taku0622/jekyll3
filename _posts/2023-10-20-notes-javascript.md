@@ -1742,3 +1742,9 @@ console.log(0o3243); // 0oは8進数を表す。1699
 console.log(0xf2f); // 0xは16進数を表す。3887
 console.log(1.3e5); // eは10を表す。1.3 * 10^5 = 130000
 ```
+
+最大値
+
+```js
+console.log(Number.MAX_VALUE); // 1.7976931348623157e+308
+```

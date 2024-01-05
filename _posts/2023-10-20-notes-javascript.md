@@ -1805,3 +1805,33 @@ console.log(date.getMonth()); // 0 ※0始まり(1月)
 console.log(date.getDate()); // 5
 console.log(date.getDay()); // 5 ※0始まり(金曜日)
 ```
+
+### Stringオブジェクト
+
+文字列のメソッドは全て新しいもの生成する。※値を更新したりしない。
+
+```js
+let apple = 'I like apples';
+result = apple.slice(0, 5); // 切り取り
+console.log(result); // I lik
+result = apple.trim(); // 文字列の前後に空白があった場合埋める
+console.log(result); // I like apples
+result = apple.split(' '); // 引数で区切って配列を返す
+console.log(result); // ['I', 'like', 'apples']
+result = apple.replace('like', 'love'); // 引数を置き換える
+console.log(result); // I love apples
+result = apple.startsWith('I like'); // 引数で始まっているか
+console.log(result); // true
+result = apple.endsWith('apples'); // 引数で終わっているか
+console.log(result); // true
+result = apple.indexOf('apples'); // 何文字目かを返す
+console.log(result); // 7
+```
+
+
+
+
+
+
+
+

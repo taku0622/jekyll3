@@ -1734,3 +1734,11 @@ result = Number.parseInt('1010', 2); // 数値変換(2進数→10進数)
 console.log(result); // 10
 ```
 
+また、以下のように進数を変換することもできる。
+
+```js
+console.log(0b10001110); // 0bは2進数を表す。142
+console.log(0o3243); // 0oは8進数を表す。1699
+console.log(0xf2f); // 0xは16進数を表す。3887
+console.log(1.3e5); // eは10を表す。1.3 * 10^5 = 130000
+```

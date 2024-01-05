@@ -1747,4 +1747,6 @@ console.log(1.3e5); // eは10を表す。1.3 * 10^5 = 130000
 
 ```js
 console.log(Number.MAX_VALUE); // 1.7976931348623157e+308
+console.log(Number.MAX_SAFE_INTEGER); // 9007199254740991 安全に四則演算ができる最大値
 ```
+

@@ -1921,6 +1921,40 @@ regexp = /[0-9a-zA-Z_]/; // 「\w」と同じ意味
 regexp = /[^0-9a-zA-Z_]/; // 先頭にキャレットをつけると「\W」と同じ意味
 ```
 
+メソッド
+
+```js
+// serchメソッド
+regexp = /[-.\w]+@([-\w]+\.)+[-\w]+/;
+let mail = 'test@test.com example@example.com'
+result = mail.search(regexp); // 0番目を返す
+console.log(result); // 0番目を返す
+
+// matchメソッド
+regexp = /[-.\w]+@([-\w]+\.)+[-\w]+/g; // gフラグを付ける
+mail = 'test@test.com example@example.com'
+result = mail.match(regexp);
+console.log(result); // 一致したものを配列にして返す。
+
+// matchAllメソッド
+regexp = /[-.\w]+@([-\w]+\.)+[-\w]+/g; // gフラグを付ける
+mail = 'test@test.com example@example.com'
+result = mail.matchAll(regexp); // イテレーターで返す。
+for (const item of result) {
+  console.log(item); // ['test@test.com', 'test.', index: 0, input: 'test@test.com example@example.com', groups: undefined]
+}
+
+// replaceメソッド
+mail = 'test@test.com example@example.com'
+result = mail.replace(/@/g, '*'); // 値を置き換える。
+// result = mail.replaceAll('@', '*'); // この処理と全く同じ。
+console.log(result);
+
+// splitメソッド
+mail = 'test@test.com example@example.com'
+result = mail.split(/\s/); // 「/s」で区切る
+console.log(result); // ['test@test.com', 'example@example.com']
+```
 
 
 

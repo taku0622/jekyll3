@@ -1841,6 +1841,86 @@ result = regexp.test('I like aPples'); // testメソッドで判定
 console.log(result);
 ```
 
+応用的な書き方
+
+```js
+regexp = /apples\d/; // 「\d」applesの後に数字があるか
+result = regexp.test('I like apples2');
+console.log(result); // true
+
+regexp = /\s/; // 「\s」半角・全角スペース・改行1つ分
+result = regexp.test('I like apples2');
+console.log(result); // true
+
+regexp = /\w/; // 「\w」数字・アルファベット・アンスコのみOK
+result = regexp.test('I like apples2');
+console.log(result); // true
+
+regexp = /\w/; // 「\w」数字・アルファベット・アンスコのみOK
+result = regexp.test('I like apples2');
+console.log(result); // true
+
+// 上記の大文字版はそれ以外OKとなる。(NOTの意味)
+// 例）「\S」半角・全角スペース・改行1つ分以外OK
+
+regexp = /./; // 「.」改行以外のすべての文字OK
+result = regexp.test('I like apples2');
+console.log(result); // true
+
+regexp = /./s;
+// 「s」フラグの付与により、改行を含め、すべての文字がOKとなる
+result = regexp.test('I like apples2');
+console.log(result); // true
+
+regexp = /\./; // 文字列としての「.」の場合、エスケープする(「\」をつける)
+result = regexp.test('I like apples2.');
+console.log(result); // true
+
+regexp = /\\/; // 文字列としての「\」
+result = regexp.test("\\");
+console.log(result); // true
+
+regexp = /^apple/; // 「^」キャレット：位置を表す。先頭
+result = regexp.test("apple is red");
+console.log(result); // true
+
+regexp = /^apple$/m; // 「m」フラグで改行した際の判定になる
+result = regexp.test("this is \napple\n pie");
+console.log(result); // true
+
+regexp = /a{5}/; // 「{}」文字数を表す。
+result = regexp.test("aaaaa");
+console.log(result); // true
+
+regexp = /\d{3,5}/; // 「\d」が3個以上5以下
+result = regexp.test("1234");
+console.log(result); // true
+
+regexp = /a+/; // 1個以上
+regexp = /a?/; // 0個以上 
+regexp = /a*/; // あってもなくてもよい 
+result = regexp.test("aaaaa");
+console.log(result); // true
+
+regexp = /I like (apple|banana)/; // 「|」または
+result = regexp.test("I like banana");
+console.log(result); // true
+
+regexp = /b[au]g/; // 「[]」aまたはu
+result = regexp.test("bug");
+console.log(result); // true
+
+// [] を使用する場合、中に以下の記号は使えない。
+// .*?+()|^$
+
+regexp = /b[a-z]g/; // 辞書順のaからzまですべて使える。
+result = regexp.test("big");
+console.log(result); // true
+
+regexp = /[0-9a-zA-Z_]/; // 「\w」と同じ意味
+regexp = /[^0-9a-zA-Z_]/; // 先頭にキャレットをつけると「\W」と同じ意味
+```
+
 
 
 

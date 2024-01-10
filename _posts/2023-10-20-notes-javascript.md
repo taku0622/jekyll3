@@ -1836,7 +1836,7 @@ console.log(result); // 7
 ```js
 let regexp = new RegExp('apple');
 regexp = /apples/i; // 上記と同じ処理
-// 「i」大文字・小文字の区別しないオプション
+// 「i」大文字・小文字の区別しないフラグ
 result = regexp.test('I like aPples'); // testメソッドで判定
 console.log(result);
 ```

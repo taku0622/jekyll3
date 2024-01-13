@@ -1960,6 +1960,35 @@ console.log(result); // ['test@test.com', 'example@example.com']
 
 いろんな言語に対応したフォーマットを作成できる。
 
+```js
+// intl
+result = new Intl.DateTimeFormat('ja-JP').format(new Date());
+console.log(result); // 2024/1/13
 
+result = new Intl.DateTimeFormat('en-US').format(new Date());
+console.log(result); // 1/13/2024
+
+result = new Intl.DateTimeFormat('ja-JP', {
+  era: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+}).format(new Date());
+console.log(result); // 西暦2024年1月13日
+
+result = new Intl.DateTimeFormat('ja-JP-u-ca-japanese', {
+  era: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+}).format(new Date());
+console.log(result); // 令和6年1月13日
+
+result = new Intl.NumberFormat('ja-JP', {
+  style: 'currency',
+  currency: 'JPY',
+}).format(10000);
+console.log(result); // ￥10,000
+```
 
 

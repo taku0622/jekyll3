@@ -2097,5 +2097,12 @@ Array.from(set); // pattern1
 [...set] // pattern2
 ```
 
+### Weekオブジェクト
+
+ガベージコレクション内のオブジェクトが消えた場合、マップの中のkeyとして使用されているオブジェクトも消える。
+
+- WeekMap
+
+- WeekSet
 
 

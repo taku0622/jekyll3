@@ -2066,8 +2066,36 @@ console.log(person);
 
 ### Setオブジェクト
 
-同じ値を複数持つことができないもの。
+同じ値を複数持つことができない配列。
 
+```js
+
+let set = new Set(['hello', 3, { name: 'taku' }, ['music']]);
+set.add('2').add(true); // 値の追加
+console.log(set);
+
+set.add('hello'); // 同じ値を入れたとき、無視される。
+
+console.log(set.has('hello')); // true
+// set.delete('hello'); // 要素の削除
+// set.clear(); // 要素の全削除
+
+console.log(set.size); // 6
+
+// ループ
+for (const item of set) {
+  console.log(item);
+}
+
+// ループ
+set.forEach((key, value, set) => {
+  console.log(key, value, set);
+});
+
+// set→array変換
+Array.from(set); // pattern1
+[...set] // pattern2
+```
 
 
 

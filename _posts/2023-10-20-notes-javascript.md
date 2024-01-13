@@ -1956,6 +1956,10 @@ result = mail.split(/\s/); // 「/s」で区切る
 console.log(result); // ['test@test.com', 'example@example.com']
 ```
 
+### Intlオブジェクト
+
+いろんな言語に対応したフォーマットを作成できる。
+
 
 
 

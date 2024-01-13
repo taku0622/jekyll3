@@ -1993,5 +1993,8 @@ console.log(result); // ￥10,000
 
 ### mapオブジェクト
 
+keyとvalueの組でデータを保存する。
+
+
 
 

@@ -1997,4 +1997,71 @@ keyとvalueの組でデータを保存する。
 
 keyは文字列、シンボルだけでなく、numberやオブジェクトも入れることができる。
 
+```js
+let map = new Map([
+  ['name', 'taku'],
+  ['age', 25],
+  ['gender', 'man'],
+]);
+map.set('city', 'tokyo'); // 値の追加
+map.set(1, 1); // number型も割り当て可能
+map.set('1', 'one'); // 上記と異なる
+result = map.get('city'); // 値の取得
+console.log(result); // tokyo
+result = map.get(1); // 値の取得
+console.log(result); // 1
+result = map.get('1'); // 値の取得
+console.log(result); // one
+result = map.has('city') // キーがあるか
+console.log(result); // true
+result = map.delete('city') // キー、バリューの削除
+console.log(result); // true
+// result = map.clear() // 全削除
+// console.log(result); // undifined
+result = map.size; // 要素の数を返す
+console.log(result); // 5
+let jack = { name: 'Jack' };
+map.set(jack, 'jack'); // オブジェクトをキーとして設定
+console.log(map.get(jack)); // jack
+map.set(jack, 'JACK'); // 値の更新
+console.log(map.get(jack)); // JACK
+
+// ループ
+for (const [key, value] of map) {
+  console.log(key, value);
+};
+
+// keyループ
+for (const key of map.keys()) {
+  console.log(key);
+};
+
+// valueループ
+for (const value of map.values()) {
+  console.log(value);
+};
+
+// ループ
+for (const item of map.entries()) {
+  console.log(item);
+};
+
+// ループ
+map.forEach((key, value, map) => {
+  console.log(key, value, map);
+});
+
+// オブジェクト→マップ変換
+let person = {
+  name: 'taku',
+  age: 25,
+};
+map = new Map(Object.entries(person));
+console.log(map);
+
+// マップ→オブジェクト変換
+person = Object.fromEntries(map);
+console.log(person);
+```
+
 

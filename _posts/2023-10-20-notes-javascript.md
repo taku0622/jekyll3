@@ -2064,4 +2064,10 @@ person = Object.fromEntries(map);
 console.log(person);
 ```
 
+### Setオブジェクト
+
+同じ値を複数持つことができないもの。
+
+
+
 

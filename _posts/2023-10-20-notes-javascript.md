@@ -1991,4 +1991,7 @@ result = new Intl.NumberFormat('ja-JP', {
 console.log(result); // ￥10,000
 ```
 
+### mapオブジェクト
+
+
 

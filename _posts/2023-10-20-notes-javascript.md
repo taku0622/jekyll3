@@ -2120,6 +2120,11 @@ Array.from(set); // pattern1
 alert('hello');
 ```
 
+Web APIsの標準化書式は2つある。
 
+- WHATWG(Apple, Mozilla, Opera)の仕様書
+https://html.spec.whatwg.org/multipage/
 
+- W3Cの仕様書
+https://www.w3.org/TR/
 

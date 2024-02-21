@@ -2143,3 +2143,5 @@ result = prompt('name');
 // resultには入力欄の値が返る
 console.log(result);
 ```
+
+### Navigator

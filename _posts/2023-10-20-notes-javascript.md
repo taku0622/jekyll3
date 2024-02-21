@@ -2121,6 +2121,7 @@ alert('hello');
 ```
 
 Web APIsの標準化書式は2つある。
+WHATWGがメイン！！
 
 - WHATWG(Apple, Mozilla, Opera)の仕様書
 https://html.spec.whatwg.org/multipage/

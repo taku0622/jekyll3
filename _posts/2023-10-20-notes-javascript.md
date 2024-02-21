@@ -2105,9 +2105,7 @@ Array.from(set); // pattern1
 
 - WeekSet
 
-## ブラウザ操作
-
-### Web APIs
+## ブラウザ操作 Web APIs
 
 グローバルオブジェクトには、 **標準ビルトインオブジェクト** と **Web APIs** がある。
 
@@ -2129,3 +2127,19 @@ https://html.spec.whatwg.org/multipage/
 - W3Cの仕様書
 https://www.w3.org/TR/
 
+### ダイアログ系
+
+```js
+// okボタンのダイアログ
+alert('hello');
+
+// ok/cancelボタンのダイアログ
+let result = confirm('Are you sure ?');
+// resultには、boolean値が返る
+console.log(result);
+
+// 入力欄、ok/cancelボタンのダイアログ
+result = prompt('name');
+// resultには入力欄の値が返る
+console.log(result);
+```

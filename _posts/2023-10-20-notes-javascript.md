@@ -2144,4 +2144,6 @@ result = prompt('name');
 console.log(result);
 ```
 
-### Navigator
+### navigator
+
+ブラウザやOSの情報を保持するオブジェクト。

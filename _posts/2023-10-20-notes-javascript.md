@@ -2197,7 +2197,21 @@ console.log(location.hash);
 console.log(location.search);
 ```
 
+locationに代入することで動的にページ遷移ができる。
 
+originだけは代入できない。
+
+```js
+// googleへ移動。href省略も可。assignメソッドも同じ
+location.href = 'https://google.com';
+// location = 'https://google.com';
+// location.assign('https://google.com');
+
+// ページA → B → C(↓のURL)の場合、Bの履歴を削除する。
+// ページA → C になる。
+// すなわち、ブラウザの戻るを押すと、ページAになる。
+location.replace('https://github.com/taku0622');
+```
 
 
 

@@ -2213,8 +2213,24 @@ location.href = 'https://google.com';
 location.replace('https://github.com/taku0622');
 ```
 
+### history
 
+履歴データを操作するオブジェクト。
 
+```js
+// 到達できるページの数
+console.log(history.length);
+// 戻るボタン
+history.back
+// 進むボタン
+history.forward
+// いくつ移動するか、※3つ戻る
+history.go(-3)
+// 戻るボタン
+history.back
+// リロードせず、URLだけを変える(複雑なJSアプリに便利)
+history.pushState(null, null, '/hello');
+```
 
 
 

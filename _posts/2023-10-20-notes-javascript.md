@@ -2172,9 +2172,30 @@ console.log(navigator.geolocation.getCurrentPosition(position => console.log(pos
 console.log(screen);
 ```
 
+### location
 
+URLの情報取得。
 
-
+```js
+// file:///C:/Users/★★★★★/Desktop/JavaScipt/BROWSER/index.html
+console.log(location.href);
+// file:
+console.log(location.protocol);
+// ドメイン、fileの場合はnull
+console.log(location.hostname);
+// https:443, http:80 左の場合、空文字
+console.log(location.port);
+// protocol://hostname:port
+console.log(location.origin);
+// hostname:port
+console.log(location.host);
+// hrelのhostname以降を返す。
+console.log(location.pathname);
+// urlに#が付いていた場合、それ以降を返す。
+console.log(location.hash);
+// クエリ(?)が付いていた場合、それ以降を返す。
+console.log(location.search);
+```
 
 
 

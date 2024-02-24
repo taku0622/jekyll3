@@ -2147,3 +2147,18 @@ console.log(result);
 ### navigator
 
 ブラウザやOSの情報を保持するオブジェクト。
+
+```js
+// Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+console.log(navigator.userAgent);
+// ja
+console.log(navigator.language);
+// Clipboard {}
+console.log(navigator.clipboard);
+// OSに接続されたカメラ、マイクの情報を取得
+console.log(navigator.mediaDevices.getUserMedia);
+// ブラウザに保存されたログイン情報を取得
+console.log(navigator.credentials);
+// 位置情報取得 GeolocationPosition {coords: GeolocationCoordinates, timestamp: 1708806790143}
+console.log(navigator.geolocation.getCurrentPosition(position => console.log(position)));
+```

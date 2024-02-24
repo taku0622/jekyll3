@@ -2162,3 +2162,27 @@ console.log(navigator.credentials);
 // 位置情報取得 GeolocationPosition {coords: GeolocationCoordinates, timestamp: 1708806790143}
 console.log(navigator.geolocation.getCurrentPosition(position => console.log(position)));
 ```
+
+### screen
+
+ブラウザではなく、ディスプレイやモニターの情報取得。
+
+```js
+// Screen {availWidth: 1920, availHeight: 1040, width: 1920, height: 1080, colorDepth: 24, …}
+console.log(screen);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

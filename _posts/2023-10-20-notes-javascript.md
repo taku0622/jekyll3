@@ -2232,6 +2232,7 @@ history.back
 history.pushState(null, null, '/hello');
 ```
 
+### URLオブジェクト
 
 
 

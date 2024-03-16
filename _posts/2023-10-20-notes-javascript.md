@@ -2234,7 +2234,35 @@ history.pushState(null, null, '/hello');
 
 ### URLオブジェクト
 
+URLを解析したものをかえしてくれる。locationに似ている。
+- locationは現在地のURLの情報を解析。
+- URLオブジェクトはどんなURLの情報も解析。
 
+```js
+let url = new URL('https://developer.mozilla.org/ja/');
+console.log(url);
+```
 
+```
+hash: ""
+host: "developer.mozilla.org"
+hostname: "developer.mozilla.org"
+href: "https://developer.mozilla.org/ja/"
+origin: "https://developer.mozilla.org"
+password: ""
+pathname: "/ja/"
+port: ""
+protocol: "https:"
+search: ""
+```
 
+searchParamsという強力な機能がある。
+- qや&や?などの値を解析できる。
 
+```js
+let url = new URL('https://developer.mozilla.org/ja/');
+// console.log(url);
+url.search = 'q=javascript';
+let result = url.searchParams.get('q');
+console.log(result); // javascript
+```

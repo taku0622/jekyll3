@@ -2266,3 +2266,46 @@ url.search = 'q=javascript'; // パスの上書き
 let result = url.searchParams.get('q');
 console.log(result); // javascript
 ```
+
+### setTimeout(), setInterval()
+
+第一引数にコールバック関数、第二引数に何秒後かをセットする。
+
+```js
+// (コールバック関数, 時間(ms))
+setTimeout(() => {
+  console.log("hello");
+}, 1000); // 1秒後に実行
+console.log('apple');
+```
+
+```
+apple
+hello
+```
+
+※setTimeoutの時間を0にした場合でも、setTimeoutは後に呼ばれる。
+
+また、返り値をして1つのsetTimeoutを識別できるIDを持っている。
+
+```js
+let timeId = setTimeout(() => { // idを保持
+  console.log("hello");
+}, 1000); // 1秒後に実行
+console.log(timeId); // 1
+clearTimeout(timeId); // 処理の中断(クリア)
+```
+
+インターバルの処理も同様
+
+```js
+// 時間(ms)ごとに実行
+let timeId = setInterval(() => {
+  console.log("hello");
+}, 1000); // 1秒後に実行)
+
+// intervalの中断
+setTimeout(() => {
+  clearInterval(timeId);
+}, 3000)
+```

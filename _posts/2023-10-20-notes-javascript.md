@@ -2309,3 +2309,5 @@ setTimeout(() => {
   clearInterval(timeId);
 }, 3000)
 ```
+
+上記で出てきた、clearTimeout, clearIntervalは内部的には同じ処理なので、書き換えても問題はないが、明示的に判別するために記載しておいた方が良い。

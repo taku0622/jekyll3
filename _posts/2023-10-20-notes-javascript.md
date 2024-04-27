@@ -2262,7 +2262,7 @@ searchParamsという強力な機能がある。
 ```js
 let url = new URL('https://developer.mozilla.org/ja/');
 // console.log(url);
-url.search = 'q=javascript';
+url.search = 'q=javascript'; // パスの上書き
 let result = url.searchParams.get('q');
 console.log(result); // javascript
 ```

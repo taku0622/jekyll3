@@ -2311,3 +2311,30 @@ setTimeout(() => {
 ```
 
 上記で出てきた、clearTimeout, clearIntervalは内部的には同じ処理なので、書き換えても問題はないが、明示的に判別するために記載しておいた方が良い。
+
+### 知っておくと便利なWebAPI
+
+- getSelection()
+  選択した文字を取得できる。
+- Intersection Observer API
+  画像のアニメーションや無限スクロール
+- Payment Request API 
+  クレカ情報をブラウザに安全に保存するAPI
+- Web Crypt API
+  暗号化のためのAPI
+- Gamepad API
+  ゲームコントローラをブラウザにつなぐAPI
+- Pointer Lock API
+  マウスを見えなくするAPI
+- Full screen API
+  フルスクリーンにするAPI
+- Web audio API
+  音を流すAPI
+- Service Workers API
+  PWAを実現できる、オフラインでも使えるように、サーバから受け取ったデータを端末に保管する。
+- Push API
+  プッシュ通知を送るAPI、必ず上記のService Workers APIを使用する必要あり。
+- Web Notifications
+  通知にするときに使うAPI
+- vibration API
+  バイブレーションを機能するAPI

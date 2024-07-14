@@ -2388,6 +2388,7 @@ keyとvalueのセットをノード(DOMノード)と呼ぶ。
 - テキストノード
 - ドキュメントノード
 
+WEB APIのdocumentと、DOMノードのドキュメントノードが関連付けされている。
+
 HTMLから生成されたDOMがどんな構造なのか確認できるサイト。
 [Live DOM Viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20html%3E%0A...)
-

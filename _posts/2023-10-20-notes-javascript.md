@@ -2365,7 +2365,7 @@ HTMLで書かれたコードをkeyとvalueのセットになったデータ構�
 </html>
 ```
 
-DOMでは
+DOMでは、以下のようなイメージ(key:value)
 
 | html |  |
 | --------- | ----- |
@@ -2375,10 +2375,8 @@ DOMでは
 | head |  |
 | --------- | ----- |
 |  key | value |
-|  key | value |
 
 | body |  |
 | --------- | ----- |
-|  key | value |
 |  key | value |
 

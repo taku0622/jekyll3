@@ -2346,3 +2346,39 @@ JavaScriptでHTMLを変えたい場合は、直接変えているわけではな
 
 DOMとは、Document Object Modelの略でHTMLの情報をプログラムから扱いやすい形にして、メモリに保存したもの。
 
+### DOMの構造
+
+HTMLで書かれたコードをkeyとvalueのセットになったデータ構造としてメモリに保存している。
+
+例）
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOMの構造</title>
+  </head>
+  <body>
+    <!-- コメント -->
+    これがDOMです
+  </body>
+</html>
+```
+
+DOMでは
+
+| html |  |
+| --------- | ----- |
+|  key | value |
+|  key | value |
+
+| head |  |
+| --------- | ----- |
+|  key | value |
+|  key | value |
+
+| body |  |
+| --------- | ----- |
+|  key | value |
+|  key | value |
+

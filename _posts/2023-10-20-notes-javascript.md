@@ -2392,3 +2392,17 @@ WEB APIのdocumentと、DOMノードのドキュメントノードが関連付�
 
 HTMLから生成されたDOMがどんな構造なのか確認できるサイト。
 [Live DOM Viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20html%3E%0A...)
+
+### html・head・body要素の取得
+
+```js
+// html要素
+let result = document.documentElement;
+// head要素
+result = document.head;
+// body要素
+result = document.body;
+
+console.dir(result);
+```
+

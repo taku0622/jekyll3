@@ -2446,3 +2446,15 @@ result = document.body.parentElement;
 result = document.head.nextElementSibling;
 result = document.body.previousElementSibling;
 ```
+
+#### 違い
+
+```js
+// 要素一覧取得 HTMLコレクションインタフェース
+colections = document.body.children;
+// ノード一覧取得 nodeリストインターフェース
+nodes = document.body.childNodes;
+console.dir(colections);
+console.dir(nodes);
+```
+

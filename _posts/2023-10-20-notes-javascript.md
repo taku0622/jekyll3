@@ -2410,7 +2410,7 @@ console.dir(result);
 
 ```js
 // 子ノードの取得
-result = document.childNodes;
+let result = document.childNodes;
 result = document.body.childNodes;
 
 // 子ノードを持っているか？

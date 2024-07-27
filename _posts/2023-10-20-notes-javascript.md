@@ -2408,6 +2408,8 @@ console.dir(result);
 
 ### 親子間のノードを取得
 
+以下コードはreadonly
+
 ```js
 // 子ノードの取得
 let result = document.childNodes;
@@ -2427,4 +2429,20 @@ result = document.body.parentNode;
 result = document.body.nextSibling;
 result = document.head.nextSibling.nextSibling;
 result = document.body.previousSibling.previousSibling;
+```
+
+### 要素のみ取得する
+
+```js
+// 要素一覧取得
+result = document.body.children;
+// 始めの要素を取得
+result = document.body.firstElementChild;
+// 最後の要素を取得
+result = document.body.lastElementChild;
+// 親要素を取得
+result = document.body.parentElement;
+// 隣の要素を取得
+result = document.head.nextElementSibling;
+result = document.body.previousElementSibling;
 ```

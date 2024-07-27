@@ -2408,3 +2408,23 @@ console.dir(result);
 
 ### 親子間のノードを取得
 
+```js
+// 子ノードの取得
+result = document.childNodes;
+result = document.body.childNodes;
+
+// 子ノードを持っているか？
+result = document.body.childNodes[0].hasChildNodes();
+
+// 最初の子ノード
+result = document.body.firstChild;
+// 最後の子ノード
+result = document.body.lastChild;
+// 親ノード
+result = document.body.parentNode;
+
+// 隣のノード
+result = document.body.nextSibling;
+result = document.head.nextSibling.nextSibling;
+result = document.body.previousSibling.previousSibling;
+```

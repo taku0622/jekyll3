@@ -2458,3 +2458,7 @@ console.dir(colections);
 console.dir(nodes);
 ```
 
+### 特定の要素を取得する
+
+要素を取得するのに最も使用する。
+

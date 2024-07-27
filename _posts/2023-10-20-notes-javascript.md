@@ -2406,3 +2406,5 @@ result = document.body;
 console.dir(result);
 ```
 
+### 親子間のノードを取得
+

@@ -2462,3 +2462,20 @@ console.dir(nodes);
 
 要素を取得するのに最も使用する。
 
+```js
+// cssセレクタを指定する(cssに指定するやつ、ex) h1, #title, .hello)
+// document配下(子孫)すべてから探す
+// 複数マッチした場合、一番最初にマッチしたもの
+let result = document.querySelector('#title');
+result = document.querySelector('.hello');
+result = document.querySelector('p');
+
+// マッチしたもの全てを返す
+result = document.querySelectorAll('p');
+
+// 祖先(自分も含む)要素取得
+result = document.body.closest('html');
+
+```
+
+[CSSセレクタ](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_selectors)

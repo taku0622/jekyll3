@@ -10,7 +10,7 @@ toc: true
 
 新NISA2年目以下の動画を観て、銘柄をメモする。
 
-**【新NISA×超攻撃型＝最強！】2025年の新NISAで超攻撃型銘柄はこれ！FANG+ vs NASDAQ100 vs SOX vs インド株式 vs S&P10 vs Zテック20！*
+**【新NISA×超攻撃型＝最強！】2025年の新NISAで超攻撃型銘柄はこれ！FANG+ vs NASDAQ100 vs SOX vs インド株式 vs S&P10 vs Zテック20！**
 
 <a href="https://www.youtube.com/watch?v=NlH37wx8Sps" target="_blank">YouTube</a>
 

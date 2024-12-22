@@ -50,7 +50,7 @@ toc:  true
 
 ##  certification🧪
 
-### 2024/09/30 HTML5 Professional Exam Level1 (CLF-C02) 🪪
+### 2024/09/30 HTML5 Professional Exam Level1 (CLF-C02) 🎓
 
 rate/border(%)
 

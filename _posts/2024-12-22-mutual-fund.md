@@ -2,8 +2,8 @@
 layout: post
 title: 投資信託：銘柄メモ
 author: taku
-date: 2024-12-22 0:00
-last_modified_at: 2024-12-22 1:00
+date: 2024-12-21 0:00
+last_modified_at: 2024-12-21 1:00
 tags: [投資, memo]
 toc: true
 ---
@@ -15,12 +15,9 @@ toc: true
 
 <a href="https://www.youtube.com/watch?v=NlH37wx8Sps" target="_blank">YouTube</a>
 
-## HTMLの基礎知識
+## 用語
 
-- 要素の中には、タグを省略できるものがある
-- 空要素は、＜〇〇＞と書いても＜〇〇 /＞と書いてもOK
-- DOCTYPE宣言の基本形は<!DOCTYPE html>だが、これ以外も指定可能
-
+- サテライト枠：
 ※空要素：タグで囲うコンテンツ(要素内容)がなく、その存在を開始タグだけで示す要素
 例）img要素、br要素、input要素、meta要素、link要素
 
